@@ -127,7 +127,17 @@ header {
 }
 
 #gallery-hero-image {
-    background: url("../images/blue_scene.jpg") no-repeat center center;
+    background: url("../images/hero-images/evening.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#contact-hero-image {
+    background: url("../images/hero-images/crew.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#filming-hero-image {
+    background: url("../images/hero-images/sailing.jpg") no-repeat center center;
     background-size: cover;
 }
 
