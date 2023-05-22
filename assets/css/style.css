@@ -4,13 +4,253 @@
     ---------------------------------------
 */
 
+/* Font selection inspired by https://www.fontpair.co/pairings/karla-merriweather*/
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Merriweather:wght@300');
+
+
 /* - GENERAL PADDING/MARGINS/TEXT  -------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    color:  var(--mastbrown);
+}
+  
+h2 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: x-large;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: var(--mastbrown);
+}
+
+h3 {
+    font-family: 'Merriweather', sans-serif;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--mastbrown);
+}
+
+.largeicon {
+    font-size: xx-large;
+    padding: 2px;
+}
+
+/* vertical & horizontal alignment from  https://www.w3schools.com/howto/howto_css_center-vertical.asp */
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+
 /* - COLOR PALETTE ------------------------------------ */
+:root {
+    --wavesblue: rgba(208, 223, 228, .7);
+    --skyblue: #67A3DF;
+    --coverblue: #2D82DC;
+    --mastbrown:#6D523D; 
+    --cockpitbrown: #965825;
+  }
+
+
 /* - LOGO and NAV MENU -------------------------------- */
+header {
+    padding-bottom: 5px;
+}
+
+#logo { /* Title of site -> Yacht Name */
+    float: left;
+    font-size: 200%;
+    margin-left: auto;
+    margin-top: 15px;
+}
+  
+#menu {
+    font-family: 'Merriweather', sans-serif;
+    font-size: 100%;
+    list-style-type: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: auto;
+    display: inline-flex;
+}
+  
+#logo, #menu {
+    line-height: 50px;
+}
+  
+#menu li {
+    float: right;
+    margin-right: 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+#menu a:hover {
+    font-weight: bold;
+    color: var(--cockpitbrown);
+    /* border-bottom: 1px solid var(--mastbrown); */
+}
+  
+.active {
+    font-weight: bold;
+    border-bottom: 1px solid  var(--mastbrown);
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+  
+.navbar .navbar-collapse {
+    text-align: right;
+}
+
+
 /* - HERO IMAGES -------------------------------------- */
+
+#main-hero-image {
+    background: url("../images//hero-images/main-image.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#gallery-hero-image {
+    background: url("../images/blue_scene.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+/* consistent settings for all hero images */
+.hero-image {
+    clear: both;
+    height: 200px; /* above xs, varies according to viewport */
+    width: 100%;
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+#hero-outer {
+    height: 200px; /* above xs, varies according to viewport */
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+@keyframes hero-zoom {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+}
+
+#cover-text,  #cover-text h2, #cover-text h3 {
+    color: var(--cock);
+    text-align: right;    
+}
+  
+#cover-text {
+    font-size: 10%;
+    font-family: Merriweather;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 200px;
+    height: 150px;
+  
+    padding-top: auto;
+    padding-left: auto;
+  
+    /* background-color: rgba(208, 223, 228, .7); */
+    background-color: var(--wavesblue);
+  
+    bottom: 5%;
+    right: 2%;
+  
+    position: absolute;
+}
+
+
 /* - INDEX PAGE-SPECIFIC ------------------------------ */
 /* - GALLERY PAGE-SPECIFIC  --------------------------- */
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
+
+
 /* - FOOTER ------------------------------------------- */
+footer {
+    background-color: var(--wavesblue);
+    color: var(--mastbrown);
+    padding: 8px 0px 8px 0px;
+}
+  
+.copyright-notice {
+    text-align: left;
+    margin:auto;
+}
+  
+.social-networks {
+    text-align: right;
+    margin: auto;
+}
+  
+.social-networks li a {
+    color: var(--cockpitbrown);
+}
+
+
 /* - MEDIA QUERIES (BOOTSTRAP BREAKPOINTS)  ----------- */
+/* Extra small devices (portrait phones, less than 576px) */
+/* Bootstrap default - no media queries required */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .hero-image {
+      height: 200px;
+    }
+    #hero-outer {
+      height: 200px;
+    }  
+}
+  
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .hero-image {
+      height: 250px;
+    }
+    #hero-outer {
+      height: 250px;
+    } 
+}
+  
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .hero-image {
+      height: 300px;
+    }
+    #hero-outer {
+      height: 300px;
+    }
+    html {
+      font-size: 1.2rem;
+    }    
+    .card p {
+      font-size: 1rem;
+    }  
+}
+  
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
