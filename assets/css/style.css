@@ -120,7 +120,6 @@ header {
 
 
 /* - HERO IMAGES -------------------------------------- */
-
 #main-hero-image {
     background: url("../images//hero-images/main-image.jpg") no-repeat center center;
     background-size: cover;
@@ -195,6 +194,17 @@ header {
 
 
 /* - INDEX PAGE-SPECIFIC ------------------------------ */
+#video-section { /* display video in centre of viewport */
+    display: flex;
+    justify-content: center;
+}
+  
+video {
+    height: 75%;
+    width: 75%;
+}
+
+
 /* - GALLERY PAGE-SPECIFIC  --------------------------- */
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
@@ -255,11 +265,15 @@ footer {
       height: 300px;
     }
     html {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
     }    
     .card p {
       font-size: 1rem;
     }  
+    video {
+        height: 60%;
+        width: 60%;
+    }
 }
   
  /* Extra large devices (large desktops, 1200px and up) */
