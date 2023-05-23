@@ -198,7 +198,6 @@ header {
 
 
 /* - INDEX PAGE-SPECIFIC ------------------------------ */
-
 #video-section h5 {
     text-align: center;
 }
@@ -216,6 +215,73 @@ video {
 
 
 /* - GALLERY PAGE-SPECIFIC  --------------------------- */
+#gallery-introduction {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: Karla, sans-serif;
+    font-size: large;
+    color:  var(--mastbrown);
+    text-align: center;
+}
+
+/* Card setting - one photo per card*/
+.card {
+    font-size: 1em;
+    padding: 0px;
+}
+  
+.card-header {
+    font-family: 'Karla', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color:  var(--mastbrown);
+    padding: 5px;
+}
+  
+.card-body {
+    font-family: 'Karla', sans-serif;
+    color:  var(--mastbrown);
+    font-size: medium;
+    padding: 5px 2px;
+}
+
+/* .img-responsive {
+    width: 100%;
+    height: auto;
+} */
+
+
+/* .card-title {
+    font-family: 'Karla', sans-serif;
+    font-size: large;
+    font-weight: 400;
+    color:  var(--mastbrown);
+    padding: 1px;
+}
+  
+.card-text {
+    font-family: 'Karla', sans-serif;
+    color:  var(--mastbrown);
+    font-size: medium;
+    padding: 1px;
+} */
+  
+  #photo-gallery .row{  /* add margin around every row, adding space for clarity */
+    margin: 2%;
+  }
+  
+  .gallery-image { /* add space between each gallery image */
+    /* font-size: 10%;
+    font-family: Merriweather;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color:  blue; */
+    padding: 2px;
+  }
+
+
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
 
