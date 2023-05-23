@@ -50,6 +50,10 @@ h3 {
     transform: translateY(-50%);
 }
 
+.page-divider {
+    width: 80%;
+    margin: 15px 10%;
+}
 
 /* - COLOR PALETTE ------------------------------------ */
 :root {
@@ -194,11 +198,17 @@ header {
 
 
 /* - INDEX PAGE-SPECIFIC ------------------------------ */
-#video-section { /* display video in centre of viewport */
+
+#video-section h5 {
+    text-align: center;
+}
+
+#main-video { /* display video in centre of viewport */
     display: flex;
     justify-content: center;
+    padding: 5px 15px;
 }
-  
+
 video {
     height: 75%;
     width: 75%;
@@ -222,8 +232,8 @@ footer {
     margin:auto;
 }
   
-.social-networks {
-    text-align: right;
+.social-networks { /* alighned center on extra small viewports only */
+    text-align: center;
     margin: auto;
 }
   
@@ -244,6 +254,10 @@ footer {
     #hero-outer {
       height: 200px;
     }  
+    .social-networks {
+        text-align: right;
+        margin: auto;
+    }
 }
   
 /* Medium devices (tablets, 768px and up) */
@@ -254,6 +268,7 @@ footer {
     #hero-outer {
       height: 250px;
     } 
+    
 }
   
 /* Large devices (desktops, 992px and up) */
