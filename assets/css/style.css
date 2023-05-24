@@ -19,21 +19,21 @@ body {
     font-family: 'Karla', sans-serif;
     color:  var(--mastbrown);
 }
-  
-h2 {
+
+h2, h3 {
     font-family: 'Merriweather', sans-serif;
-    font-size: x-large;
     text-transform: uppercase;
-    letter-spacing: 4px;
     color: var(--mastbrown);
 }
 
+h2 {
+    font-size: x-large;
+    letter-spacing: 4px;
+}
+
 h3 {
-    font-family: 'Merriweather', sans-serif;
     font-size: large;
-    text-transform: uppercase;
     letter-spacing: 2px;
-    color: var(--mastbrown);
 }
 
 .largeicon {
@@ -230,6 +230,7 @@ video {
 .card {
     font-size: 1em;
     padding: 0px;
+    margin: 10px 0px;
 }
   
 .card-header {
@@ -268,18 +269,13 @@ video {
     padding: 1px;
 } */
   
-  #photo-gallery .row{  /* add margin around every row, adding space for clarity */
-    margin: 2%;
-  }
+#photo-gallery .row { /* add side margin to gallery rows */
+    margin: 0px 2%;
+}
   
-  .gallery-image { /* add space between each gallery image */
-    /* font-size: 10%;
-    font-family: Merriweather;
-    text-transform: capitalize;
-    letter-spacing: 2px;
-    color:  blue; */
-    padding: 2px;
-  }
+.gallery-image { /* add space between each gallery image */
+    padding: 5px;
+}
 
 
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
