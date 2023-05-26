@@ -85,10 +85,37 @@
             <div id="contact-form-block" class="col-10 col-md-5">
                 <div id="contact-form-text"> 
                     <h5> CONTACT FORM</h5>
-                    To enquire about hiring, find out more or just say hello, enter your details in the contact form below: 
+                    To enquire about hiring, find out more, or just say hello, enter your details in the contact form below: 
                 </div>
                 <div id="contact-form">
-                    ..Form for making contact to be added here..
+                    <form method="POST" action="https://formdump.codeinstitute.net/">
+                        <div class="form-group">
+                            <label for="firstname">First name</label>
+                            <input type="text" class="form-control" name="firstname" placeholder="Enter your first name" aria-label="Enter your first name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="surname">Surname</label>
+                            <input type="text" class="form-control" name="surname" placeholder="Enter your surname" aria-label="Enter your surname" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailaddress">Email Address</label>
+                            <input type="email" class="form-control" name="emailaddress" placeholder="Enter your email address" aria-label="email address" required>
+                            <small class="form-text text-muted">Don't worry - We'll never share your email with anyone else!</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" name="message" rows="3" placeholder="Enter your message here" aria-label="Enter your message here" required></textarea>
+                        </div>
+                        <div class="form-group form-row">
+                            <div class="form-check col-auto">
+                                <input type="checkbox" class="form-check-input" name="human-user">
+                                <label class="form-check-label" for="human-user" aria-label="Tick the checkbox to confirm you are a human" required>Yes, I'm a human!</label>
+                            </div>
+                            <div class="col-auto ml-auto">
+                                <button type="submit" class="site-button">Submit</button>   
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
             <!-- <div class="col-1">
@@ -97,7 +124,7 @@
             <div id="location-map-block" class="col-10 col-md-5">
                 <div id="location-map-text">
                     <h5>FIND US</h5>
-                    Find Wah Kong II, and the crew, at Weymouth Marina, UK:
+                    Find Wah Kong II, and her crew, at Weymouth Marina, UK:
                 </div>
                 <div id="location-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2531.836859115636!2d-2.4612035502669984!3d50.61156891325428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4872f7082fa61f3d%3A0xca0795046f4aba1d!2sWeymouth%20Marina!5e0!3m2!1sen!2suk!4v1684951111946!5m2!1sen!2suk" 
