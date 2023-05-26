@@ -41,6 +41,11 @@ h3 {
     padding: 2px;
 }
 
+a {
+    font-weight: bold;
+    color: var(--cockpitbrown);
+}
+
 /* vertical & horizontal alignment from  https://www.w3schools.com/howto/howto_css_center-vertical.asp */
 .vertical-center {
     margin: 0;
@@ -199,6 +204,10 @@ header {
 
 
 /* - INDEX PAGE-SPECIFIC ------------------------------ */
+.card-text {
+    font-size: 0.9em;
+}
+
 #video-section h5 {
     text-align: center;
 }
