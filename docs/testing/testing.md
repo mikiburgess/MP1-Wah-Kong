@@ -92,7 +92,17 @@ W3C online code validators were used to validate the final versions of all code 
 During development and manual testing process, a number of bugs were identified. These are summarised below: those what were identified and fixed, and those that are not yet foxed but would be rectified with further development.
 
 ## Fixed Bugs 
-(slow loading?)
+| Problem | Solution | Result |
+| ----------- | ----------- | ----------- |
+| Gallery page: Slow to load | Gallery image files resized for web viewing | Reduced file szes no loner results in unacceptable delay in page download |
+| Contact page: Users were able to submit the contact form without ticking the "Yes, I'm a Human" confirmation box. | Error identified - required attribute was attached to label rather than checkbox. This was corrected. | User is now prompted to check the box if they fail to do so, and form submission will oly be successful when all fields are complete.  |
+| | | |
 
 ## Unfixed Bugs 
-(check accessibility with device settings, eg dark more)
+(check accessibility with device settings, eg dark mode)
+
+| Issue | Comments |
+| ----------- | ----------- | 
+| Contact form data currently not used | This is a limitation of the currently project. Fixing this would be completed under future development. |
+| | | |
+| | | |
