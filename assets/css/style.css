@@ -74,7 +74,7 @@ a {
 
 /* - COLOR PALETTE ------------------------------------ */
 :root {
-    --wavesblue: rgba(208, 223, 228, .7);
+    --wavesblue: rgba(208, 223, 228, .8);
     --skyblue: #67A3DF;
     --coverblue: #2D82DC;
     --mastbrown:#6D523D; 
@@ -189,7 +189,7 @@ header {
 }
 
 #cover-text,  #cover-text h2, #cover-text h3 {
-    color: var(--cock);
+    color: var(--mastbrown);
     text-align: right;    
 }
   
@@ -204,6 +204,7 @@ header {
   
     padding-top: auto;
     padding-left: auto;
+    padding-right: 1px;
   
     /* background-color: rgba(208, 223, 228, .7); */
     background-color: var(--wavesblue);
@@ -415,7 +416,7 @@ footer {
     #hero-outer {
       height: 250px;
     } 
-   
+
     #location-map iframe {  
         width: 40vw; 
         height: 40vh;
@@ -424,15 +425,26 @@ footer {
   
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .hero-image {
-      height: 300px;
-    }
-    #hero-outer {
-      height: 300px;
-    }
     html {
       font-size: 1.1rem;
     }    
+    .hero-image {
+        height: 300px;
+    }
+    #hero-outer {
+        height: 300px;
+    }
+    #cover-text {
+          width: 220px;
+          height: 165px;  
+          bottom: 6%;
+          right: 3%;
+          
+    }
+    #cover-text h2 {
+          padding-right: 5px;
+          
+    }
     .card p {
       font-size: 1rem;
     }  
@@ -448,5 +460,16 @@ footer {
   
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
-    
+    html {
+        font-size: 1.2rem;
+    }  
+    #cover-text {
+        width: 240px;
+        height: 170px;  
+        bottom: 8%;
+        right: 4%;
+    }
+    #cover-text h2, h3 {
+        padding-right: 6px;
+    }
  }
