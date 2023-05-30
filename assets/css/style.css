@@ -53,6 +53,11 @@ h3 {
     padding: 2px;
 }
 
+.disclaimer {
+    font-size: smaller;
+    font-style: italic;
+}
+
 a {
     font-weight: bold;
     color: var(--cockpitbrown);
@@ -75,7 +80,8 @@ a {
 
 /* - COLOR PALETTE ------------------------------------ */
 :root {
-    --wavesblue: rgba(208, 223, 228, .8);
+    --wavesblue: rgba(208, 223, 228, .9);
+    --wavesblue-light: rgba(208, 223, 228, .4);
     --skyblue: #67A3DF;
     --coverblue: #2D82DC;
     --mastbrown:#6D523D; 
@@ -218,8 +224,19 @@ header {
 
 
 /* - INDEX PAGE-SPECIFIC ------------------------------ */
+
+.card {
+    border: none;
+}
+.card-body {
+    background-color: var(--wavesblue-light);
+    border-radius: 5%;
+}
+.card-title {
+    padding: 2px 4px;
+}
 .card-text {
-    font-size: 1rem;
+    padding: 2px;
 }
 
 #video-section h5 {
