@@ -68,9 +68,10 @@ a {
 }
 
 .page-divider {
-    width: 80%;
-    margin: 15px 10%;
+    width: 90%;
+    margin: 20px 5%;
 }
+
 
 /* - COLOR PALETTE ------------------------------------ */
 :root {
@@ -421,6 +422,13 @@ footer {
     #location-map iframe {  
         width: 40vw; 
         height: 40vh;
+    }
+    .page-divider {
+        width: 80%;
+        margin: 20px 10%;
+    }
+    .responsive-divider {
+        border: none;
     }
 }
   
