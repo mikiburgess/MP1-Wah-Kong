@@ -363,7 +363,6 @@ video {
     border: solid 1px lightgray;
     width: 80vw; 
     height: 25vh;
-
 }
 
 
@@ -463,7 +462,7 @@ footer {
     }
     #location-map iframe {  
         width: 40vw; 
-        height: 40vh;
+        height: 50vh;
     }
 }
   
