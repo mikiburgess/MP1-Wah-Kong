@@ -223,7 +223,6 @@ header {
     padding: 0px;
     margin: 10px 0px;
     border: none;
-    
 }
   
 .card-header { /* to be added to <h*> to enable styling of card headers */
@@ -306,16 +305,27 @@ video {
 #movie-trailer { 
     display: flex;
     justify-content: center;
-    width: 560px;
-    height: 315px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    width: 426px;
+    height: 240px;
     padding: 5px 20px;
     border-radius: 8%;
 }
 
-#movie-poster {
+#movie-gallery .row { /* add side margin to gallery rows */
+    margin: 0px 2px;
+}
+
+#movie-gallery .card-body {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* #movie-poster {
     height: 315px;
     width: auto;
-}
+} */
 
 
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
@@ -443,6 +453,12 @@ footer {
     .responsive-divider {
         border: none;
     }
+    #movie-trailer { 
+        margin-right: 5rem;
+        margin-left: 5rem;
+        width: 560px;
+        height: 315px;
+    }
 }
   
 /* Large devices (desktops, 992px and up) */
@@ -476,6 +492,16 @@ footer {
         width: 40vw; 
         height: 50vh;
     }
+    #movie-gallery {
+        margin: 2px 1erm;
+    }
+    #movie-gallery .row { /* add side margin to gallery rows */
+        margin: 0px 2em;
+    }   
+    #movie-gallery .card-body {
+        padding: 2px;
+        margin: 2%;
+    }
 }
   
  /* Extra large devices (large desktops, 1200px and up) */
@@ -491,5 +517,12 @@ footer {
     }
     #cover-text h2, h3 {
         padding-right: 6px;
+    }
+    #movie-gallery .row { /* add side margin to gallery rows */
+        margin: 0px 1px;
+    }   
+    #movie-gallery .card-body {
+        padding: 2px;
+        margin: 5px;
     }
  }
