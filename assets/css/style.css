@@ -81,7 +81,7 @@ a {
 /* - COLOR PALETTE ------------------------------------ */
 :root {
     --wavesblue: rgba(208, 223, 228, .9);
-    --wavesblue-light: rgba(208, 223, 228, .4);
+    --wavesblue-light: rgba(208, 223, 228, .1);
     --skyblue: #67A3DF;
     --coverblue: #2D82DC;
     --mastbrown:#6D523D; 
@@ -222,23 +222,49 @@ header {
     position: absolute;
 }
 
+/* - CARDS -------------------------------------------- */
+.card {
+    font-size: 1em;
+    padding: 0px;
+    margin: 10px 0px;
+    border: none;
+    
+}
+  
+.card-header {
+    font-family: 'Karla', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color:  var(--mastbrown);
+    padding: 10px 5px;
+    border-radius: 1em;
+}
+  
+.card-body {
+    font-family: 'Karla', sans-serif;
+    color:  var(--mastbrown);
+    background-color: var(--wavesblue-light);
+    font-size: medium;
+    padding: 0px;
+    border-radius: 2em;
+}
+
+.card-text {
+    padding: 5px;
+}
+
+.card-title {
+    font-family: 'Karla', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color:  var(--mastbrown);
+    /* padding: 1px; */
+    padding: 10px 10px;
+    border-radius: 1em;
+}
+  
 
 /* - INDEX PAGE-SPECIFIC ------------------------------ */
-
-.card {
-    border: none;
-}
-.card-body {
-    background-color: var(--wavesblue-light);
-    border-radius: 5%;
-}
-.card-title {
-    padding: 2px 4px;
-}
-.card-text {
-    padding: 2px;
-}
-
 #video-section h5 {
     text-align: center;
 }
@@ -267,47 +293,11 @@ video {
     text-align: center;
 }
 
-/* Card setting - one photo per card*/
-.card {
-    font-size: 1em;
-    padding: 0px;
-    margin: 10px 0px;
-}
-  
-.card-header {
-    font-family: 'Karla', sans-serif;
-    font-size: large;
-    font-weight: bold;
-    color:  var(--mastbrown);
-    padding: 5px;
-}
-  
-.card-body {
-    font-family: 'Karla', sans-serif;
-    color:  var(--mastbrown);
-    font-size: medium;
-    padding: 5px 2px;
-}
+
 
 /* .img-responsive {
     width: 100%;
     height: auto;
-} */
-
-
-/* .card-title {
-    font-family: 'Karla', sans-serif;
-    font-size: large;
-    font-weight: 400;
-    color:  var(--mastbrown);
-    padding: 1px;
-}
-  
-.card-text {
-    font-family: 'Karla', sans-serif;
-    color:  var(--mastbrown);
-    font-size: medium;
-    padding: 1px;
 } */
   
 #photo-gallery .row { /* add side margin to gallery rows */
@@ -320,6 +310,23 @@ video {
 
 
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
+
+#movie-trailer { 
+    display: flex;
+    justify-content: center;
+    width: 560px;
+    height: 315px;
+    padding: 5px 20px;
+    border-radius: 8%;
+}
+
+#movie-poster {
+    height: 315px;
+    width: auto;
+}
+
+
+
 
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
 #contact-section {
