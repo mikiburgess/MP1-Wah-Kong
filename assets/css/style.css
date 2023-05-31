@@ -64,6 +64,11 @@ a {
     color: var(--cockpitbrown);
 }
 
+.page-divider {
+    width: 90%;
+    margin: 20px 5%;
+}
+
 /* vertical & horizontal alignment from  https://www.w3schools.com/howto/howto_css_center-vertical.asp */
 .vertical-center {
     margin: 0;
@@ -71,11 +76,6 @@ a {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-}
-
-.page-divider {
-    width: 90%;
-    margin: 20px 5%;
 }
 
 
@@ -87,7 +87,7 @@ a {
     --coverblue: #2D82DC;
     --mastbrown:#6D523D; 
     --cockpitbrown: #965825;
-  }
+}
 
 
 /* - LOGO and NAV MENU -------------------------------- */
@@ -95,7 +95,7 @@ header {
     padding-bottom: 5px;
 }
 
-#logo { /* Title of site -> Yacht Name */
+#logo { /* Yacht Name - Wah Kong II */
     float: left;
     font-size: 200%;
     margin-left: auto;
@@ -169,7 +169,7 @@ header {
     background-size: cover;
 }
 
-/* consistent settings for all hero images */
+/* standard settings for all hero images */
 .hero-image {
     clear: both;
     height: 200px; /* above xs, varies according to viewport */
@@ -206,25 +206,19 @@ header {
     font-family: Merriweather;
     text-transform: uppercase;
     letter-spacing: 2px;
-
     width: 200px;
     height: 150px;
-  
     padding-top: auto;
     padding-left: auto;
     padding-right: 1px;
-  
-    /* background-color: rgba(208, 223, 228, .7); */
     background-color: var(--wavesblue);
-  
     bottom: 5%;
     right: 2%;
-  
     position: absolute;
 }
 
 /* - CARDS -------------------------------------------- */
-.card {
+.card { /* standard card style to be used across the site */
     font-size: 1em;
     padding: 0px;
     margin: 10px 0px;
@@ -232,7 +226,7 @@ header {
     
 }
   
-.card-header {
+.card-header { /* to be added to <h*> to enable styling of card headers */
     font-family: 'Karla', sans-serif;
     font-size: large;
     font-weight: bold;
@@ -247,7 +241,7 @@ header {
     background-color: var(--wavesblue-light);
     font-size: medium;
     padding: 0px;
-    border-radius: 2em;
+    border-radius: 1em;
 }
 
 .card-text {
@@ -259,7 +253,6 @@ header {
     font-size: large;
     font-weight: bold;
     color:  var(--mastbrown);
-    /* padding: 1px; */
     padding: 10px 10px;
     border-radius: 1em;
 }
@@ -295,7 +288,6 @@ video {
 }
 
 
-
 /* .img-responsive {
     width: 100%;
     height: auto;
@@ -311,7 +303,6 @@ video {
 
 
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
-
 #movie-trailer { 
     display: flex;
     justify-content: center;
@@ -325,8 +316,6 @@ video {
     height: 315px;
     width: auto;
 }
-
-
 
 
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
@@ -391,7 +380,6 @@ video {
 }
 
 
-
 /* - FOOTER ------------------------------------------- */
 footer {
     background-color: var(--wavesblue);
@@ -418,8 +406,9 @@ footer {
 
 
 /* - MEDIA QUERIES (BOOTSTRAP BREAKPOINTS)  ----------- */
+
 /* Extra small devices (portrait phones, less than 576px) */
-/* Bootstrap default - no media queries required */
+/*  - Bootstrap default - no media queries required */
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
@@ -471,12 +460,10 @@ footer {
           width: 220px;
           height: 165px;  
           bottom: 6%;
-          right: 3%;
-          
+          right: 3%; 
     }
     #cover-text h2 {
-          padding-right: 5px;
-          
+          padding-right: 5px;    
     }
     .card p {
       font-size: 1rem;
