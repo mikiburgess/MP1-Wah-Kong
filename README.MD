@@ -6,13 +6,14 @@ The website completed and presented for Milestone Project 1 is intended to showc
 
 [Visit the deployed site for Wah Kong II](https://mikiburgess.github.io/MP1-Wah-Kong/index.html)
 
-...
+- - -
 
 ## Table of Contents
 
 - [Introduction](#Introduction)
 - [User Experience (UX)](#User-Experience-(UX))
-    - [User Goals and Stories](#User-Goals-and-Stories)
+    - [User Stories](#User-Stories)
+    - [Site Elements](#Site-Elements)
 - [Site Design](#Site-Design)
     - [Wireframes](#Wireframes)
     - [Fonts](#Fonts)
@@ -36,7 +37,7 @@ The website completed and presented for Milestone Project 1 is intended to showc
 - [Credits](#Credits)
 - [Acknowledgements](#Acknowledgements)
 
-...
+- - -
 
 ## Introduction
 
@@ -85,6 +86,7 @@ Considering the above user stories and the milestone 1 project requirements, the
 Plus, if time allows post-mvp (minimal viable product):
 - Overview of her appearance in the movie ['On Chesil Beach'](https://www.imdb.com/title/tt1667321/)
 
+- - -
 
 ## Site Design
 ### Wireframes
@@ -97,6 +99,8 @@ Plus, if time allows post-mvp (minimal viable product):
 ### Current Features
 *(note:check requirements 3.2)*
 ### Future Features
+
+- - -
 
 ##  Development Process
 ### Tools
@@ -113,6 +117,8 @@ Plus, if time allows post-mvp (minimal viable product):
 ## Deployment
 
 ## Future Development
+
+- - -
 
 ## Credits
 I would like to credit the following resources for supporting my learning and project development:
