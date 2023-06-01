@@ -98,7 +98,11 @@ Plus, if time allows post-mvp (minimal viable product):
 ## Site Features
 ### Current Features
 *(note:check requirements 3.2)*
+
 ### Future Features
+- Incorporate [modal images](https://www.w3schools.com/howto/howto_css_modals.asp) into the photo gallery, allowing full size viewing of each gallery photo. 
+- Add backend functionality to process submitted contact form data and respond accordingly, rather than using Code institute's form submission checker.
+- Add a page of resources, including links to the marina, yacht club, and local boat yard.
 
 - - -
 
