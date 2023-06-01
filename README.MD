@@ -13,7 +13,7 @@ The website completed and presented for Milestone Project 1 is intended to showc
 - [Introduction](#Introduction)
 - [User Experience (UX)](#User-Experience-(UX))
     - [User Goals and Stories](#User-Goals-and-Stories)
-- [Site Design](Site Design)
+- [Site Design](#Site-Design)
     - [Wireframes](#Wireframes)
     - [Fonts](#Fonts)
     - [Color Scheme](#Color-Scheme)
@@ -41,7 +41,7 @@ The website completed and presented for Milestone Project 1 is intended to showc
 ## Introduction
 
 ## User Experience (UX)
-    - User Goals and Stories
+### User Goals and Stories
 
 ## Site Design
 ### Wireframes
@@ -73,8 +73,8 @@ The website completed and presented for Milestone Project 1 is intended to showc
 
 ## Credits
 I would like to credit the following resources for supporting my learning and project development:
-
+- to complete ...
 
 ## Acknowledgements
 I would like to acknowledge the following people to helped me complete this milestone project:
-
+- to complete ...
