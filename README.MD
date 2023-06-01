@@ -35,7 +35,10 @@ The website completed and presented for Milestone Project 1 is intended to showc
 - [Deployment](#Deployment)
 - [Future Development](#Future-Development)
 - [Credits](#Credits)
-- [Acknowledgements](#Acknowledgements)
+    - [Content](#Content)
+    - [Code](#Code)
+    - [Learning Resources](#Learning-Resources)
+    - [Acknowledgements](#Acknowledgements)
 
 - - -
 
@@ -125,9 +128,33 @@ Plus, if time allows post-mvp (minimal viable product):
 - - -
 
 ## Credits
-I would like to credit the following resources for supporting my learning and project development:
-- to complete ...
+I would like to credit the following resources and individuals for supporting both my learning and the development of this project.
 
-## Acknowledgements
-I would like to acknowledge the following people to helped me complete this milestone project:
-- to complete ...
+### Content
+- Yacht history, data and images were supplied by Martin Burgess, skipper and current owner of Wah Kong II.
+- Additional images and video were taken from my personal library.
+- Movie trailer video embedded from [YouTube](https://www.youtube.com/).
+
+### Code
+- [Bootstrap v4.5](https://getbootstrap.com/)framework.
+- The fonts used in this project are from [Google](https://fonts.google.com/) and [Fontawesome](https://fontawesome.com/). 
+
+### Learning Resources
+Additional learning resources (*alongside Code Institute*):
+- [Balsamiq Documentation](https://balsamiq.com/wireframes/desktop/docs/symbols/#importing-symbols-from-wireframes-to-go): learning how to use Balsamiq to develop Wireframes during gthe design stage,
+- [Bootstrap v4.5 Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Building upon the learning undertaken during the course to improve my knowledge and understanding of this framework.
+- [W3Schools](https://www.w3schools.com/): Specifically the reference pages for [CSS(https://www.w3schools.com/css/default.asp)] and [Bootstrap](https://www.w3schools.com/bootstrap4/default.asp), and their [Accessibility Guidelines](https://www.w3schools.com/accessibility/index.php).
+- [Medium.com](https://medium.com/): Specifically for the article ['Best Practices on aria-label, aria-labelledby and aria-describedby'](https://medium.com/accessibility-a11y/best-practices-on-aria-label-aria-labelledby-and-aria-describedby-913fc9e396ae) by Saptarshi Katwala.
+- [The Net Ninja on YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR): Git & GitHub Tutorial for Beginners.
+- []()
+
+To create the project README.MD and TESTING.MD files I was inspired by the following: 
+- A Code Institute alumni, [Kera Cudmore's](https://github.com/kera-cudmore) GitHub repository includes examples and advice for creating these documents for [milestone project 1](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md), plus an example completed repo for [Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club) website.
+- []()
+
+### Acknowledgements
+I would like to acknowledge the following people who helped me complete this milestone project:
+- [Iris Smok](https://github.com/Iris-Smok) - our Code Institute cohort facilitator.
+- [Jubril Akolade](https://github.com/Jubrillionaire) - my Code Institute mentor.
+- Martin Burgess - owner and skipper of Wah Kong II, for providing images, yacht data, and feedback during the development process.
+- Nic Caine - professional developer, for providing additional feedback during the development process.
