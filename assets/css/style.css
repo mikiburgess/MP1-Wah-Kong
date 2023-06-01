@@ -238,12 +238,12 @@ header {
     font-family: 'Karla', sans-serif;
     color:  var(--mastbrown);
     background-color: var(--wavesblue-light);
-    font-size: medium;
     padding: 0px;
     border-radius: 1em;
 }
 
 .card-text {
+    font-size: medium;
     padding: 5px;
 }
 
@@ -307,10 +307,7 @@ video {
     justify-content: center;
     margin-right: 2rem;
     margin-left: 2rem;
-    width: 426px;
-    height: 240px;
     padding: 5px 20px;
-    border-radius: 8%;
 }
 
 #movie-gallery .row { /* add side margin to gallery rows */
@@ -321,11 +318,6 @@ video {
     padding: 5px;
     margin: 5px;
 }
-
-/* #movie-poster {
-    height: 315px;
-    width: auto;
-} */
 
 
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
@@ -454,10 +446,9 @@ footer {
         border: none;
     }
     #movie-trailer { 
-        /* margin-right: 5rem;
-        margin-left: 5rem; */
         width: 560px;
         height: 315px;
+        border-radius: 5%;
     }
 }
   
@@ -481,9 +472,6 @@ footer {
     #cover-text h2 {
           padding-right: 5px;    
     }
-    .card p {
-      font-size: 1rem;
-    }  
     video {
         height: 75%;
         width: 75%;
