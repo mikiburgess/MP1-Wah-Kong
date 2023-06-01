@@ -218,10 +218,15 @@ header {
 }
 
 /* - CARDS -------------------------------------------- */
+.card-deck{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .card { /* standard card style to be used across the site */
     font-size: 1em;
     padding: 0px;
-    margin: 10px 0px;
+    margin: 5px 0px;
     border: none;
 }
   
@@ -236,6 +241,7 @@ header {
   
 .card-body {
     font-family: 'Karla', sans-serif;
+    font-size: medium;
     color:  var(--mastbrown);
     background-color: var(--wavesblue-light);
     padding: 0px;
@@ -434,6 +440,10 @@ footer {
     #hero-outer {
       height: 250px;
     } 
+    .card-deck{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     #location-map iframe {  
         width: 40vw; 
         height: 40vh;
