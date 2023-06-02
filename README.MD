@@ -18,8 +18,7 @@ The website completed and presented for Milestone Project 1 is intended to showc
     - [Wireframes](#Wireframes)
     - [Fonts](#Fonts)
     - [Color Scheme](#Color-Scheme)
-    - [Images](#Images)
-    - [Videos](#Videos)
+    - [Site Content](#Site-Content)
 - [Site Features](#Site-Features)
     - [Current Features](#Current-Features)
     - [Future Features](#Future-Features)
@@ -129,7 +128,7 @@ These colors were added as variables to the stylesheet to allow for easy reuse t
 
 ### Site Content
 - The site will primarily comprise photographs, plus one video, taken by myself and the yacht owner. 
-- The text will be written by me, based on infomraiton provided by the yacht owner.
+- The text will be written by me, based on information provided by the yacht owner.
 - Movie trailer for 'On Chesil Beech' will be embedded from [YouTube](https://youtu.be/ZR6DWDfMDlM).
 - The site icon of an Anchor was created on [Favicon](https://www.favicon.cc/?action=icon&file_id=996800), where it was both downloaded for project and shared online for others to use. 
 
@@ -143,7 +142,7 @@ These colors were added as variables to the stylesheet to allow for easy reuse t
 - Add backend functionality to process submitted contact form data and respond accordingly, rather than using Code institute's form submission checker.
 - Add a page of resources, including links to the marina, yacht club, and local boat yard.
 
-In adition, if additional images are required,  royalty-free images will be obtained from [Pixabay](https://pixabay.com/). Those selected would be usable under their [Content Licence](https://pixabay.com/service/terms/) (Section 4) or licenced under the Creative [Commons Zero licence](https://pixabay.com/service/terms/) (Section 3).
+In addition, if additional images are required,  royalty-free images will be obtained from [Pixabay](https://pixabay.com/). Those selected would be usable under their [Content Licence](https://pixabay.com/service/terms/) (Section 4) or licenced under the Creative [Commons Zero licence](https://pixabay.com/service/terms/) (Section 3).
 
 - - -
 
@@ -152,6 +151,8 @@ In adition, if additional images are required,  royalty-free images will be obta
 ### Project Management
 ### Languages
 ### Frameworks
+
+- - -
 
 ## Testing
 Results of site testing can be found in [TESTING.MD](docs/testing/TESTING.MD).
@@ -179,7 +180,7 @@ I would like to credit the following resources and individuals for supporting bo
 
 ### Learning Resources
 Additional learning resources (*alongside Code Institute*):
-- [Balsamiq Documentation](https://balsamiq.com/wireframes/desktop/docs/symbols/#importing-symbols-from-wireframes-to-go): learning how to use Balsamiq to develop Wireframes during gthe design stage,
+- [Balsamiq Documentation](https://balsamiq.com/wireframes/desktop/docs/symbols/#importing-symbols-from-wireframes-to-go): learning how to use Balsamiq to develop Wireframes during the design stage,
 - [Bootstrap v4.5 Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Building upon the learning undertaken during the course to improve my knowledge and understanding of this framework.
 - [W3Schools](https://www.w3schools.com/): Specifically the reference pages for [CSS](https://www.w3schools.com/css/default.asp) and [Bootstrap](https://www.w3schools.com/bootstrap4/default.asp), and their [Accessibility Guidelines](https://www.w3schools.com/accessibility/index.php).
 - [Medium.com](https://medium.com/): Specifically for the article ['Best Practices on aria-label, aria-labelledby and aria-describedby'](https://medium.com/accessibility-a11y/best-practices-on-aria-label-aria-labelledby-and-aria-describedby-913fc9e396ae) by Saptarshi Katwala.
@@ -187,7 +188,7 @@ Additional learning resources (*alongside Code Institute*):
 - []()
 
 To create the project README.MD and TESTING.MD files I was inspired by the following: 
-- A Code Institute alumni, [Kera Cudmore's](https://github.com/kera-cudmore) GitHub repository includes examples and advice for creating these documents for [milestone project 1](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md), plus an example completed repo for [Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club) website.
+- A Code Institute alumnus, [Kera Cudmore's](https://github.com/kera-cudmore) GitHub repository includes examples and advice for creating these documents for [milestone project 1](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md), plus an example completed repo for [Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club) website.
 - []()
 
 ### Acknowledgements
@@ -195,6 +196,6 @@ I would like to acknowledge the following people who helped me complete this mil
 - [Iris Smok](https://github.com/Iris-Smok) - our Code Institute cohort facilitator, for being a constant source of support and encouragement.
 - [Jubril Akolade](https://github.com/Jubrillionaire) - my Code Institute mentor, for their invaluable feedback and suggestions during the development of this project.
 - Martin Burgess - owner and skipper of Wah Kong II, for providing images, yacht data, and feedback during the development process.
-- Dr Nic Caine - professional softweare developer, for providing additional feedback during the development process.
+- Dr Nic Caine - professional software developer, for providing additional feedback during the development process.
 
 - - -
