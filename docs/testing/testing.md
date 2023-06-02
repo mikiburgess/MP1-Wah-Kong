@@ -36,6 +36,7 @@ Testing of Milestone Project 1 - Wah Kong II.
 | Non-hero images work |  |  |  |  |  |  | Notes |
 | Site renders as expected |  |  |  |  |  |  | Notes |
 
+Site responsiveness across viewports can also be reviewed through [Am I Response?](https://ui.dev/amiresponsive?url=https://mikiburgess.github.io/MP1-Wah-Kong/)
 
 ## Browser Compatability
 (2-3 browsers. inc summary table)
