@@ -332,6 +332,9 @@ video {
     margin: 5px;
 }
 
+#movie-gallery p { /* add spacing around descriptions for clarity */
+    padding: 5px;
+}
 
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
 #contact-section {
