@@ -1,6 +1,6 @@
 # Wah Kong II Website
 
-The website completed and presented for Milestone Project 1 is intended to showcase Wah Kong II, a classic wooden yacht based in Weymouth, UK. It has been designed and developed using a mobile-first approach, but is accessible and responsive across a range of devices.
+The website completed and presented for Milestone Project 1 is intended to showcase Wah Kong II, a classic wooden yacht based in Weymouth, UK. It has been designed and developed using a mobile-first approach, and is accessible and responsive across a range of devices.
 
 ![Wah Kong Website shown on a range of devices](docs/images/wah_kong_website.png)
 
@@ -52,6 +52,10 @@ such as the classic boat community, and assist in her sale at some undefined poi
 From this initial discussion with the yacht's owner, a number of potential users and user stories were identified.
 
 ### User Stories
+Three categories of users were identified:
+- General site visitors,
+- Visitors with specific interest in the yacht,
+- Yacht owner (the primary customer for this web site).
 
 ##### GENERAL USERS
 First time visitor to the site:
@@ -73,7 +77,7 @@ Individuals/companies interested in booking attendance at an event/regatta:
 Companies looking for a classic boat for hire (TV/Film/Photography):
 - As a Filmmaker/Photographer, I want to be able to see a variety of images so that I can determine whether the yacht may be a suitable candidate for the production and therefore worth reviewing on site.
 
-*FUTURE* Potential owners: 
+Potential new owner: 
 - As a Potential New Owner, I want to read about the specifications, construction and history, be able to view photos of various elements of the the yacht, so that I can determine whether she may be suitable for me therefore worth reviewing on site.
 
 ##### YACHT OWNER
@@ -92,8 +96,19 @@ Plus, if time allows post-mvp (minimal viable product):
 - - -
 
 ## Site Design
+
 ### Wireframes
+Wireframes were designed after the initial discussion with the yacht owner, reviewed with them during a second discussion in order to gather their feedback, then revised. The revision included adding a map to the contact page, showing the location. The final set of wireframes used for development are listed below:  
+- [General page design](docs/wireframes/general_design.png) - the foundation for developing all site wireframes
+- [Home Page (index.html)](docs/wireframes/p1_index.png)
+- [Photo Gallery (gallery.html)](docs/wireframes/p2_gallery.png)
+- [Contact Page (contact.html)](docs/wireframes/p3_contact.png)
+- [Filming Page (filming.html; additional site page)](docs/wireframes/p4_extra_filming.png)
+
 ### Fonts
+- [Fontpair](https://www.fontpair.co/) was used to identify complementary font pairs for use across the site. The pair selected for use on this site - [Karla & Merriweather](https://www.fontpair.co/pairings/karla-merriweather) 
+- Addiitonal site icons were obtained from [Fontawesome](https://fontawesome.com/). [Version 5](https://fontawesome.com/v5/search?o=r&m=free) was adopted due to being the version used in the Code Institute course. Future development however would involve upgrading this to the latest version.
+
 ### Color Scheme
 ### Images
 ### Videos
@@ -116,10 +131,7 @@ Plus, if time allows post-mvp (minimal viable product):
 ### Frameworks
 
 ## Testing
-
-## Bugs
-### Fixed Bugs (slow loading?)
-### Unfixed Bugs (check accessibility with device settings, eg dark more)
+Results of site testing can be found in [TESTING.MD](docs/testing/TESTING.MD).
 
 ## Deployment
 
