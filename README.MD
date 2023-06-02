@@ -2,7 +2,7 @@
 
 The website completed and presented for Milestone Project 1 is intended to showcase Wah Kong II, a classic wooden yacht based in Weymouth, UK. It has been designed and developed using a mobile-first approach, but is accessible and responsive across a range of devices.
 
-![Wah Kong Website shown on a range of devices]()
+![Wah Kong Website shown on a range of devices](docs/images/wah_kong_website.png)
 
 [Visit the deployed site for Wah Kong II](https://mikiburgess.github.io/MP1-Wah-Kong/index.html)
 
@@ -136,14 +136,14 @@ I would like to credit the following resources and individuals for supporting bo
 - Movie trailer video embedded from [YouTube](https://www.youtube.com/).
 
 ### Code
-- [Bootstrap v4.5](https://getbootstrap.com/)framework.
+- [Bootstrap v4.5](https://getbootstrap.com/) framework in site styling.
 - The fonts used in this project are from [Google](https://fonts.google.com/) and [Fontawesome](https://fontawesome.com/). 
 
 ### Learning Resources
 Additional learning resources (*alongside Code Institute*):
 - [Balsamiq Documentation](https://balsamiq.com/wireframes/desktop/docs/symbols/#importing-symbols-from-wireframes-to-go): learning how to use Balsamiq to develop Wireframes during gthe design stage,
 - [Bootstrap v4.5 Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Building upon the learning undertaken during the course to improve my knowledge and understanding of this framework.
-- [W3Schools](https://www.w3schools.com/): Specifically the reference pages for [CSS(https://www.w3schools.com/css/default.asp)] and [Bootstrap](https://www.w3schools.com/bootstrap4/default.asp), and their [Accessibility Guidelines](https://www.w3schools.com/accessibility/index.php).
+- [W3Schools](https://www.w3schools.com/): Specifically the reference pages for [CSS](https://www.w3schools.com/css/default.asp) and [Bootstrap](https://www.w3schools.com/bootstrap4/default.asp), and their [Accessibility Guidelines](https://www.w3schools.com/accessibility/index.php).
 - [Medium.com](https://medium.com/): Specifically for the article ['Best Practices on aria-label, aria-labelledby and aria-describedby'](https://medium.com/accessibility-a11y/best-practices-on-aria-label-aria-labelledby-and-aria-describedby-913fc9e396ae) by Saptarshi Katwala.
 - [The Net Ninja on YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR): Git & GitHub Tutorial for Beginners.
 - []()
@@ -154,7 +154,9 @@ To create the project README.MD and TESTING.MD files I was inspired by the follo
 
 ### Acknowledgements
 I would like to acknowledge the following people who helped me complete this milestone project:
-- [Iris Smok](https://github.com/Iris-Smok) - our Code Institute cohort facilitator.
-- [Jubril Akolade](https://github.com/Jubrillionaire) - my Code Institute mentor.
+- [Iris Smok](https://github.com/Iris-Smok) - our Code Institute cohort facilitator, for being a constant source of support and encouragement.
+- [Jubril Akolade](https://github.com/Jubrillionaire) - my Code Institute mentor, for their invaluable feedback and suggestions during the development of this project.
 - Martin Burgess - owner and skipper of Wah Kong II, for providing images, yacht data, and feedback during the development process.
-- Nic Caine - professional developer, for providing additional feedback during the development process.
+- Dr Nic Caine - professional softweare developer, for providing additional feedback during the development process.
+
+- - -
