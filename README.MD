@@ -110,8 +110,29 @@ Wireframes were designed after the initial discussion with the yacht owner, revi
 - Addiitonal site icons were obtained from [Fontawesome](https://fontawesome.com/). [Version 5](https://fontawesome.com/v5/search?o=r&m=free) was adopted due to being the version used in the Code Institute course. Future development however would involve upgrading this to the latest version.
 
 ### Color Scheme
-### Images
-### Videos
+The color scheme for the site was taken from the colors of Wah Kong near her mooring, using a photo including her deck, mast and cabin, the sea, and a clear blue sky. The photo was uploaded to the [Coolors](https://coolors.co/user/palettes) color palette creation tool, resulting in the following site color palette:
+
+![Color palette for the Wah Kong website](docs/images/color_palette.png)
+
+These colors were added as variables to the stylesheet to allow for easy reuse throughout the project:
+
+``` 
+{
+    --wavesblue: rgba(208, 223, 228, .9);
+    --wavesblue-light: rgba(208, 223, 228, .2);
+    --skyblue: #67A3DF;
+    --coverblue: #2D82DC;
+    --mastbrown:#6D523D; 
+    --cockpitbrown: #965825;
+}
+```
+
+### Site Content
+- The site will primarily comprise photographs, plus one video, taken by myself and the yacht owner. 
+- The text will be written by me, based on infomraiton provided by the yacht owner.
+- Movie trailer for 'On Chesil Beech' will be embedded from [YouTube](https://youtu.be/ZR6DWDfMDlM).
+- The site icon of an Anchor was created on [Favicon](https://www.favicon.cc/?action=icon&file_id=996800), where it was both downloaded for project and shared online for others to use. 
+
 
 ## Site Features
 ### Current Features
@@ -121,6 +142,8 @@ Wireframes were designed after the initial discussion with the yacht owner, revi
 - Incorporate [modal images](https://www.w3schools.com/howto/howto_css_modals.asp) into the photo gallery, allowing full size viewing of each gallery photo. 
 - Add backend functionality to process submitted contact form data and respond accordingly, rather than using Code institute's form submission checker.
 - Add a page of resources, including links to the marina, yacht club, and local boat yard.
+
+In adition, if additional images are required,  royalty-free images will be obtained from [Pixabay](https://pixabay.com/). Those selected would be usable under their [Content Licence](https://pixabay.com/service/terms/) (Section 4) or licenced under the Creative [Commons Zero licence](https://pixabay.com/service/terms/) (Section 3).
 
 - - -
 
@@ -147,9 +170,12 @@ I would like to credit the following resources and individuals for supporting bo
 - Additional images and video were taken from my personal library.
 - Movie trailer video embedded from [YouTube](https://www.youtube.com/).
 
-### Code
+
+### Additional code
 - [Bootstrap v4.5](https://getbootstrap.com/) framework in site styling.
 - The fonts used in this project are from [Google](https://fonts.google.com/) and [Fontawesome](https://fontawesome.com/). 
+
+
 
 ### Learning Resources
 Additional learning resources (*alongside Code Institute*):
