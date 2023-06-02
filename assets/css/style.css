@@ -217,6 +217,7 @@ header {
     position: absolute;
 }
 
+
 /* - CARDS -------------------------------------------- */
 .card-deck{
     margin-left: 5px;
@@ -309,6 +310,9 @@ video {
     padding: 5px;
 }
 
+.gallery-image p { /* add spacing around descriptions for clarity */
+    padding: 5px;
+}
 
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
 #movie-trailer { 
