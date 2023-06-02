@@ -82,7 +82,7 @@ a {
 /* - COLOR PALETTE ------------------------------------ */
 :root {
     --wavesblue: rgba(208, 223, 228, .9);
-    --wavesblue-light: rgba(208, 223, 228, .1);
+    --wavesblue-light: rgba(208, 223, 228, .2);
     --skyblue: #67A3DF;
     --coverblue: #2D82DC;
     --mastbrown:#6D523D; 
@@ -250,7 +250,7 @@ header {
 
 .card-text {
     font-size: medium;
-    padding: 5px;
+    padding: 5px 10px;
 }
 
 .card-title {
@@ -264,6 +264,10 @@ header {
   
 
 /* - INDEX PAGE-SPECIFIC ------------------------------ */
+#info-cards .card {
+    height: 100%;
+}
+
 #video-section h5 {
     text-align: center;
 }
@@ -291,7 +295,6 @@ video {
     color:  var(--mastbrown);
     text-align: center;
 }
-
 
 /* .img-responsive {
     width: 100%;
