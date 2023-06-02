@@ -315,6 +315,10 @@ video {
 }
 
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
+#movie-gallery h5 {
+    text-align: center;
+}
+
 #movie-trailer { 
     display: flex;
     justify-content: center;
