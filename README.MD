@@ -222,12 +222,16 @@ This project employed the Boostrap v4.5 framework (the version covered in the co
 Results of site testing can be found in [testing.md](docs/testing/testing.md).
 
 ## Deployment and Local Development
+This section describes how to use the project repository for deploying the site or for developing the code locally.
+
+In order to navigate to the start of the project repository you can either scroll to the top of this page, or click on [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong).
+
 
 ### Deployment
 [GitHub Pages](https://pages.github.com/) was used to deploy the live website. The instructions to achieve this are below:
 
 1. Log in (or sign up) to GitHub.
-2. Locate the project repository.
+2. Navigate to the project repository.
 3. Click on the Settings link.
 4. Scroll down to find the Pages link in the left hand side navigation bar.
 5. Click on the Pages link and locate the Build and Deployment section.
@@ -240,18 +244,18 @@ The site will now be deployed by GitHub Pages and available at the URL shown nea
 
 #### How to Fork this Project Repo
 1. Log in (or sign up) to Github.
-2. Navigate to the project repository (scroll to the top of this page, or visit [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong)).
+2. Navigate to the project repository.
 3. Click the Fork button at the top right of the page.
 
 #### How to Clone this Project Repo
 1. Log in (or sign up) to GitHub.
-2. Navigate to the project repository (scroll to the top of this page, or visit [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong)).
-2. Click on the Code button, ans select the Local tab.
-3. Select whether you would like to clone with HTTPS, SSH or GitHub CLI.
-4. Copy the link shown by clicking the 'copy' button.
-5. Open the  in your code editor and change the current working directory to the location you want to use for the cloned directory.
-6. Type the command 'git clone' into the terminal and then paste the link you copied from GitHub. 
-7. Press enter. You will now have a clone of the project repo.
+2. Navigate to the project repository.
+3. Click on the Code button, ans select the Local tab.
+4. Select whether you would like to clone with HTTPS, SSH or GitHub CLI.
+5. Copy the link shown by clicking the 'copy' button.
+6. Open the  in your code editor and change the current working directory to the location you want to use for the cloned directory.
+7. Type the command 'git clone' into the terminal and then paste the link you copied from GitHub. 
+8. Press enter. You will now have a clone of the project repo.
 
 ## Future Development Practices
 Reflecting on the lessons learned and skills developed during this project,  both the site and project could be improved in a number of ways. 
