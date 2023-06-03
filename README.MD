@@ -47,6 +47,7 @@ This repository and associated deployed website comprise my submission for the D
 
 - - -
 
+![Image of the website landing page](docs/images/site_illustration.png)
 
 ## User Experience (UX)
 This website showcases Wah Kong II, a classic wooden yacht currently moored in Weymouth, UK. Originally built in 1958, due to her age and construction she is of potential interest to the classic boat community.
@@ -99,6 +100,9 @@ Plus, if time allows post-mvp (minimal viable product):
 
 - - -
 
+![Selection of thumbnails of project wireframes](docs/images/wireframe_illustration.png)
+
+
 ## Site Design
 
 ### Wireframes
@@ -117,7 +121,10 @@ Wireframes were designed after the initial discussion with the yacht owner, revi
 ### Color Scheme
 The color scheme for the site was taken from the colors of Wah Kong near her mooring, using a photo including her deck, mast and cabin, the sea, and a clear blue sky. The photo was uploaded to the [Coolors](https://coolors.co/user/palettes) color palette creation tool, resulting in the following site color palette:
 
-![Color palette for the Wah Kong website](docs/images/color_palette.png)
+| ![Color palette for the Wah Kong website](docs/images/color_palette.png) |
+| :-------: |
+| *Figure: Website color palette* |
+
 
 These colors were added as variables to the stylesheet to allow for easy reuse throughout the project:
 
@@ -171,6 +178,14 @@ All pages also have the following features:
 - Responsive navigation bar at the top of the page, allowing for users to navigate the site without using browser back/forward buttons. This navigation bar collapses to a menu toggler on smaller viewports to maintain site readability.
 - Responsive hero image with page title is at the top of each page, directly beneath the navigation bar. Although each page has a different hero image, the placement, dimensions, and responsive behaviour is consistent across all pages.
 - Viewport-width footer containing a copyright notice (placeholder/unofficial) and links to all relevant social media platforms. The standard, recognisable logos for each platform have been used to keep the footer as clean as possible. On larger viewports the footer is full width comprising the copyright notice aligned left and social media icons alighned right. On smaller viewports the social media icons are aligned centrally, under the copyright notice, to ensure footer content remains readable.
+
+| ![Image of the website navigation menu](docs/images/navigation_illustration.png) |
+| :-------: |
+| *Figure: Responsive navigation bar* |
+
+| ![Image of the website footer](docs/images/footer_illustration.png) |
+| :-------: |
+| *Figure: Site Footer* |
 
 ### Site Accessibility
 Site accessibility was considered throughout the deisgn and build process:
