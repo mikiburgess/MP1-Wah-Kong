@@ -30,6 +30,9 @@ The website completed and presented for Milestone Project 1 is intended to showc
     - [Frameworks](#Frameworks)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
+- [Deployment and Local Development](£Deployment-and-Local-Development)
+    - [Deployment](#Deployment)
+    - [Local Development](#Local-Development)
 - [Future Development Practices](#Future-Development-Practices)
 - [Credits](#Credits)
     - [Site Content](#Site-Content)
@@ -219,7 +222,24 @@ This project employed the Boostrap v4.5 framework (the version covered in the co
 ## Testing
 Results of site testing can be found in [testing.md](docs/testing/testing.md).
 
-## Deployment
+## Deployment and Local Development
+
+### Deployment
+[Github Pages](https://pages.github.com/) was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Locate the project repository.
+3. Click on the Settings link.
+4. Scroll down to find the Pages link in the left hand side navigation bar.
+5. Click on the Pages link and locate the Build and Deployment section.
+6. Under the Source option, select *Deploy from a branch* from the drop-down box.
+7. Under the Branch section, select *master* then */(root)* from the two drop-down boxes, then click Save. 
+
+The site will now be deployed by GitHub Pages and available at the URL shown near the top of the page. Click on the Visit Site button to be taken there directly.
+
+### Local Development
+#### How to Fork this Project Repo
+#### How to Clone this Project Repo
 
 ## Future Development Practices
 Reflecting on the lessons learned and skills developed during this project,  both the site and project could be improved in a number of ways. 
