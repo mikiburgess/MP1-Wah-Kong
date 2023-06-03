@@ -283,7 +283,8 @@ In future projects, including developing the Future Features listed above, I the
 - Photographs: To improve performance of sites in future, all images will be processed using a tool to compress them appropriately for online download, such as [TinyPNG](https://tinypng.com/) and available in a variety of formats (inc. [WebP](https://web.dev/serve-images-webp/)) to improve performace and browser compatability.
 
 ### Version Control
-Commit messages: Git commit mesages would be improved by writing them in a standard format - "<type>(<scope>): <subject>". This would be based on the conventions presented by Ishan Makadia on dev.to (https://dev.to/ishanmakadia/git-commit-message-convention-that-you-can-follow-1709) and Apurva Jain on medium.com (https://medium.com/swlh/writing-better-commit-messages-9b0b6ff60c67)
+Commit messages: Git commit mesages would be improved by writing them in a standard format -  ``` <type>(<scope>): <subject> ``` 
+This would be based on the conventions presented by [Ishan Makadia on dev.to](https://dev.to/ishanmakadia/git-commit-message-convention-that-you-can-follow-1709) and [Apurva Jain on medium.com](https://medium.com/swlh/writing-better-commit-messages-9b0b6ff60c67)
 Commit frequency: Reflecting on the early days of the project with my mentor, we realised that my use of git could be improved by increasing the number of commits. By committing changes more often (after every feature addition, bug fix, etc), this will improve rep usability and help develop an improved professional development practice.  
 
 ### Project
