@@ -212,12 +212,12 @@ Project planning and management was done using the GitHub Projects tool (i.e. a 
 Pages were created using HTML and CSS. Comments were added throughout for explanation (where appropriate) and clarifying code structure.
 
 ### Frameworks
-This project employed the Boostrap v4.5 framework (the version covered in the course videos). Bootstrap support was obtained through the official (Bootstrap documentation)[https://getbootstrap.com/docs/4.5/getting-started/introduction/, [W3Schools](https://www.w3schools.com/bootstrap/bootstrap_ver.asp, and through the Code Institute Slack Community.
+This project employed the Boostrap v4.5 framework (the version covered in the course videos). Bootstrap support was obtained through the official [Bootstrap documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/), [W3Schools](https://www.w3schools.com/bootstrap/bootstrap_ver.asp), and through the Code Institute Slack Community.
 
 - - -
 
 ## Testing
-Results of site testing can be found in [TESTING.MD](docs/testing/TESTING.MD).
+Results of site testing can be found in [testing.md](docs/testing/testing.md).
 
 ## Deployment
 
