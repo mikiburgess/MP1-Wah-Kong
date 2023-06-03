@@ -1,7 +1,7 @@
 /* 
     MILESTONE PROJECT 1 by MIKHAILA BURGESS
     STYLESHEET FOR WAH KONG II WEBSITE
-    ---------------------------------------
+    - - - - - - - - - - - - - - - - - - - -
 
     SECTION ORDER
         - GENERAL PADDING/MARGINS/TEXT
@@ -30,16 +30,16 @@
 
 body {
     font-family: 'Karla', sans-serif;
-    color:  var(--mastbrown);
+    color: var(--mastbrown);
 }
 
-h2, h3 {
+h1, h2, h3 {
     font-family: 'Merriweather', sans-serif;
     text-transform: uppercase;
     color: var(--mastbrown);
 }
 
-h2 {
+h1, h2 {
     font-size: x-large;
     letter-spacing: 4px;
 }
@@ -85,7 +85,7 @@ a {
     --wavesblue-light: rgba(208, 223, 228, .2);
     --skyblue: #67A3DF;
     --coverblue: #2D82DC;
-    --mastbrown:#6D523D; 
+    --mastbrown: #6D523D; 
     --cockpitbrown: #965825;
 }
 
@@ -129,12 +129,11 @@ header {
 #menu a:hover {
     font-weight: bold;
     color: var(--cockpitbrown);
-    /* border-bottom: 1px solid var(--mastbrown); */
 }
   
 .active {
     font-weight: bold;
-    border-bottom: 1px solid  var(--mastbrown);
+    border-bottom: 1px solid var(--mastbrown);
 }
 
 .navbar .navbar-nav {
@@ -169,7 +168,7 @@ header {
     background-size: cover;
 }
 
-/* standard settings for all hero images */
+/* standard settings for all hero images, adapted from CI 'Love Running' walkthrough project */
 .hero-image {
     clear: both;
     height: 200px; /* above xs, varies according to viewport */
@@ -208,8 +207,6 @@ header {
     letter-spacing: 2px;
     width: 200px;
     height: 150px;
-    padding-top: auto;
-    padding-left: auto;
     padding-right: 1px;
     background-color: var(--wavesblue);
     bottom: 5%;
@@ -235,7 +232,7 @@ header {
     font-family: 'Karla', sans-serif;
     font-size: large;
     font-weight: bold;
-    color:  var(--mastbrown);
+    color: var(--mastbrown);
     padding: 10px 5px;
     border-radius: 1em;
 }
@@ -243,7 +240,7 @@ header {
 .card-body {
     font-family: 'Karla', sans-serif;
     font-size: medium;
-    color:  var(--mastbrown);
+    color: var(--mastbrown);
     background-color: var(--wavesblue-light);
     padding: 0px;
     border-radius: 1em;
@@ -258,7 +255,7 @@ header {
     font-family: 'Karla', sans-serif;
     font-size: large;
     font-weight: bold;
-    color:  var(--mastbrown);
+    color: var(--mastbrown);
     padding: 10px 10px;
     border-radius: 1em;
 }
@@ -293,13 +290,12 @@ video {
     padding-bottom: 10px;
     font-family: Karla, sans-serif;
     font-size: large;
-    color:  var(--mastbrown);
+    color: var(--mastbrown);
     text-align: center;
 }
 
 /* .img-responsive {
-    width: 100%;
-    height: auto;
+    placeholder for future development
 } */
   
 #photo-gallery .row { /* add side margin to gallery rows */
@@ -313,6 +309,7 @@ video {
 .gallery-image p { /* add spacing around descriptions for clarity */
     padding: 5px;
 }
+
 
 /* - FILMING PAGE-SPECIFIC  --------------------------- */
 #movie-gallery h5 {
@@ -340,12 +337,12 @@ video {
     padding: 5px;
 }
 
+
 /* - CONTACT PAGE-SPECIFIC  --------------------------- */
 #contact-section {
     display: flex;
     padding-top: 10px;
     padding-bottom: 10px;
-    /* text-align: center; */
 }
 
 #contact-form-block {
@@ -355,7 +352,6 @@ video {
 
 #contact-form form {
     margin: 10px;
-    padding: auto;
     font-size: 0.9em;
 }
 
@@ -505,7 +501,7 @@ footer {
         height: 50vh;
     }
     #movie-gallery {
-        margin: 2px 1erm;
+        margin: 2px;
     }
     #movie-gallery .row { /* add side margin to gallery rows */
         margin: 0px 2em;
