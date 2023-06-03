@@ -1,8 +1,6 @@
-# Wah Kong II
+# Wah Kong II Website
 
 Testing of Milestone Project 1 - Wah Kong II.
-
-
 
 ## Table of Contents
 
@@ -10,7 +8,7 @@ Testing of Milestone Project 1 - Wah Kong II.
 - [Responsiveness](#responsiveness)
 - [Browser Compatability](#browser-compatbility)
 - [Lighthouse](#Lighthouse)
-- [Code Validtion](#Code-Validtion)
+- [Code Validation](#Code-Validation)
 - User Story Testing (inc able: 'User Story' and 'Testing' columns)
 - Features (manually test all features. again inc table)
 - [Bugs](#Bugs)
@@ -21,30 +19,34 @@ Testing of Milestone Project 1 - Wah Kong II.
 - - -
 
 ## Introduction
-
+This document describes the testing process and results for Milestone Project 1. For additional project details please refer to:
+- [Main project README document](../../README.MD)
+- [Deployed web site](https://mikiburgess.github.io/MP1-Wah-Kong/)
 
 ## Responsiveness
 (inc screenshots and poss video. test each page. inc summary table)
 
-| Responsiveness | Notes |
-| ----------- | ----------- |
-| | Android Mobile | Apple Mobile | Android Tablet Device | Apple Tablet Device | Desktop 1024px | Desktop >1200px | Notes | Image |
-| Site is responsive >=700px | [xxx](screenshots/xxx.png) | | n/a | n/a |  |  | Notes |
-| Site is responsive <699px |  |  | n/a | n/a | n/a | n/a | Notes |
-| Text Readable |  |  |  |  |  |  | Notes |
-| Links / URLs wordk |  |  |  |  |  |  | Notes |
-| Hero Images work |  |  |  |  |  |  | Notes |
-| Non-hero images work |  |  |  |  |  |  | Notes |
-| Site renders as expected |  |  |  |  |  |  | Notes |
+
+| Responsiveness | Android Mobile | Apple Mobile | Android Tablet Device | Apple Tablet Device | Desktop 1024px | Desktop >1200px | Notes | Evidence |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
+| Site is responsive >=700px | n/a | n/a |  |  |  |  | Notes | |
+| Site is responsive <699px |  |  | n/a | n/a | n/a | n/a | Notes | |
+| Text Readable | Good | Good | Good | Good | Good | Good | No readability issues identified on any tested viewport | |
+| Links / URLs work |  |  |  |  |  |  | Notes | |
+| Hero Images work |  |  |  |  |  |  | Notes | |
+| Non-hero images work |  |  |  |  |  |  | Notes | |
+| Contact form works |  |  |  |  |  |  | Notes | |
+| Google map visible |  |  |  |  |  |  | Notes | |
+| Site renders as expected |  |  |  |  |  |  | Notes | |
 
 Site responsiveness across viewports can also be reviewed through [Am I Response?](https://ui.dev/amiresponsive?url=https://mikiburgess.github.io/MP1-Wah-Kong/)
 
 ## Browser Compatability
 *(2-3 browsers. inc summary table)*
 
-| Browser Compatability | Notes |
 | ----------- | ----------- |
-| | Chrome | Edge | Firefox | Safari | Opera | Notes |
+| | Chrome | Edge | Firefox | Safari | Opera | Notes | Evidence |
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
 | Intended appearance? |  |  |  |  |  |
 | Intended responsiveness? |  |  |  |  |  |
 
@@ -55,7 +57,7 @@ Site responsiveness across viewports can also be reviewed through [Am I Response
 *(remember to disable extensions)*
 
 
-## Code Validtion 
+## Code Validation 
 W3C online code validators were used to validate the final versions of all code developed for this project. Below are the results of using their [Markup Validation Service](https://validator.w3.org/) and [Jigsaw](https://jigsaw.w3.org/css-validator/). All code was validated using the 'direct input' option.
 
 ### HTML Validation
@@ -117,18 +119,19 @@ None of these warnings require action.
 ## Bugs
 During development and manual testing process, a number of bugs were identified. These are summarised below: those what were identified and fixed, and those that are not yet foxed but would be rectified with further development.
 
-## Fixed Bugs 
+### Fixed Bugs 
 | Problem | Solution | Result |
 | ----------- | ----------- | ----------- |
 | Gallery page: Slow to load | Gallery image files resized for web viewing | Reduced file sizes no longer results in unacceptable delay in page download |
 | Contact page: Users were able to submit the contact form without ticking the "Yes, I'm a Human" confirmation box. | Error identified - required attribute was attached to label rather than checkbox. This was corrected. | User is now prompted to check the box if they fail to do so, and form submission will only be successful when all fields are complete.  |
 | | | |
 
-## Unfixed Bugs 
-*(check accessibility with device settings, eg dark mode)*
+### Unfixed Bugs 
 
 | Issue | Comments |
 | ----------- | ----------- | 
-| Contact form data currently not used | This is a limitation of the currently project. Fixing this would be completed under future development. |
-| | | |
-| | | |
+| Contact page: Contact form data currently not used | This is a limitation of the currently project. Fixing this would be completed under future development. |
+| Filming page: Inconsistent styling and responsive behaviour | This page was designed and developed in addiotn to the minimum project requirements. As such it needs further work to improve and complete the build - updating the formatting and layout of the movie text and trailer to be consistent with the Contact page to improve site consistency and page responsiveness. |
+| Image formats and sizes | To improve performance the file size of all photographs need be reduced. For improved browser compatability they also need to be available in multiple formats (min. WebP and JPG). This is an action for future development. |
+
+- - -
