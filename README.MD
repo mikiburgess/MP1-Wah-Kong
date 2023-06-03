@@ -143,7 +143,32 @@ These colors were added as variables to the stylesheet to allow for easy reuse t
 
 ## Site Features
 ### Current Features
-*(note:check requirements 3.2)*
+The website currently comprises four pages: [Home](https://mikiburgess.github.io/MP1-Wah-Kong/index.html), [Gallery](https://mikiburgess.github.io/MP1-Wah-Kong/gallery.html), [Filming](https://mikiburgess.github.io/MP1-Wah-Kong/filming.html) and [Contact](https://mikiburgess.github.io/MP1-Wah-Kong/contact.html) pages.
+
+
+[Home Page (index.html)](https://mikiburgess.github.io/MP1-Wah-Kong/index.html):
+- A brief history of yacht Wah Kong, a summary of her design, construction and specifications, and information about hire opportunities.
+- Video of Wah Kong out at sea, sailing along the Jurassic Coast (autoplay disabled).
+
+[Gallery Page (gallery.html)](https://mikiburgess.github.io/MP1-Wah-Kong/gallery.html):
+- Selection of photographs of the yacht showing external construction above and below the waterline, internal cabin, photos of her at sea, and photos taken from on-board.
+- Photographs are grouped into sets of 4 images, comprising either landscape or portrait photos. These sets ensure consistency in row sizes across all viewports. 
+
+[Filming Page (filming.html)](https://mikiburgess.github.io/MP1-Wah-Kong/filming.html):
+- Example of where the yacht has been hired for professional media use.
+- Overview of the film 'On Chesil Beach', including video.
+- Selection of photographs taken on filming location.
+
+[Contact Page (contact.html)](https://mikiburgess.github.io/MP1-Wah-Kong/contact.html):
+- Form for making contact with the yacht's owner and crew, using form data entry widgets which validate user input (all fields must be completed, email address must be in the form of an email address).
+- Form submission only possible if the user confirms that they are a human. 
+- On form submission, the entered data is currently presented back to the user. *In future development this will be replaced by backend functionality that will process submitted data*.
+- A map shows the location of the yacht, in Weymouth Marina.
+
+All pages also have the following features:
+- Responsive navigation bar at the top of the page, allowing for users to navigate the site without using browser back/forward buttons. This navigation bar collapses to a menu toggler on smaller viewports to maintain site readability.
+- Responsive hero image with page title is at the top of each page, directly beneath the navigation bar. Although each page has a different hero image, the placement, dimensions, and responsive behaviour is consistent across all pages.
+- Viewport-width footer containing a copyright notice (placeholder/unofficial) and links to all relevant social media platforms. The standard, recognisable logos for each platform have been used to keep the footer as clean as possible. On larger viewports the footer is full width comprising the copyright notice aligned left and social media icons alighned right. On smaller viewports the social media icons are aligned centrally, under the copyright notice, to ensure footer content remains readable.
 
 ### Site Accessibility
 Site accessibility was considered throughout the deisgn and build process:
