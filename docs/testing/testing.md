@@ -104,6 +104,15 @@ None of these warnings require action.
 
 | User Story | Testing |
 | ----------- | ----------- |
+| As a First Time Visitor, I want to be able to navigate through the site easily and intuitively, to browse and locate the content. | Navigation menu is clearly visible at the top of every page. |
+| As a First Time Visitor, I want to be able to contact the owner with comments and/or to ask questions. | The contact form enables any visitor to send a message directly to the crew. |
+| As a First Time Visitor, I want to be able to where the organisation is located. | Google map is embedded within the contact page, showing location of Wah Kong's home marina.  |
+| As a Returning Visitor, I want to be able to navigate the site quickly and easily in order to find the information I'm looking for. | Navigation menu is clearly visible at the top of every page. |
+| As a Returning Visitor, I want to be able to contact the owner with comments and/or to ask questions. | The contact form enables any visitor to send a message or question directly to the crew. There are no limits as to the number of messages a user can manually submit through this form. |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
 |  |  |
 |  |  |
 
