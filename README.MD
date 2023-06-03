@@ -29,8 +29,7 @@ The website completed and presented for Milestone Project 1 is intended to showc
     - [Languages](#Languages)
     - [Frameworks](#Frameworks)
 - [Testing](#Testing)
-- [Deployment](#Deployment)
-- [Deployment and Local Development](£Deployment-and-Local-Development)
+- [Deployment and Local Development](#Deployment-and-Local-Development)
     - [Deployment](#Deployment)
     - [Local Development](#Local-Development)
 - [Future Development Practices](#Future-Development-Practices)
@@ -241,12 +240,12 @@ The site will now be deployed by GitHub Pages and available at the URL shown nea
 
 #### How to Fork this Project Repo
 1. Log in (or sign up) to Github.
-2. Navigate to the project repository - [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong).
+2. Navigate to the project repository (scroll to the top of this page, or visit [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong)).
 3. Click the Fork button at the top right of the page.
 
 #### How to Clone this Project Repo
 1. Log in (or sign up) to GitHub.
-2. Navigate to the project repository - [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong).
+2. Navigate to the project repository (scroll to the top of this page, or visit [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong)).
 2. Click on the Code button, ans select the Local tab.
 3. Select whether you would like to clone with HTTPS, SSH or GitHub CLI.
 4. Copy the link shown by clicking the 'copy' button.
