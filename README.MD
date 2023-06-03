@@ -22,21 +22,19 @@ The website completed and presented for Milestone Project 1 is intended to showc
 - [Site Features](#Site-Features)
     - [Current Features](#Current-Features)
     - [Future Features](#Future-Features)
+    - [Accessibility](#Accessibility)
 -  [Development Process](#Development-Process)
     - [Tools](#Tools)
     - [Project Management](#Project-Management)
     - [Languages](#Languages)
     - [Frameworks](#Frameworks)
 - [Testing](#Testing)
-- [Bugs](#Bugs)
-    - [Fixed Bugs](#Fixed-Bugs)
-    - [Unfixed Bugs](#Unfixed-Bugs)
 - [Deployment](#Deployment)
 - [Future Development](#Future-Development)
 - [Credits](#Credits)
-    - [Content](#Content)
+    - [Site Content](#Site-Content)
     - [Code](#Code)
-    - [Learning Resources](#Learning-Resources)
+    - [Learning Resources and Inspiration](#Learning-Resources-and-Inspiration)
     - [Acknowledgements](#Acknowledgements)
 
 - - -
@@ -85,7 +83,7 @@ Potential new owner:
 - As the Owner, I want to be able to inform potential buyers of her details so that, in the future, I will be able to sell her to a classic yacht enthusiast.
 
 ### Site Elements
-Considering the above user stories and the milestone 1 project requirements, the following elements to be included in the site were identified:
+Considering the above user stories and the Milestone 1 Project Requirements, the following elements to be included in the site were identified:
 - Overview of dimensions, construction and history
 - Gallery showcasing the yacht herself and views from the yacht whilst at sea.
 - Enquiry form for site visitors to request information regarding features/history, bookings and/or availability.
@@ -102,11 +100,12 @@ Wireframes were designed after the initial discussion with the yacht owner, revi
 - [Home Page (index.html)](docs/wireframes/p1_index.png)
 - [Photo Gallery (gallery.html)](docs/wireframes/p2_gallery.png)
 - [Contact Page (contact.html)](docs/wireframes/p3_contact.png)
-- [Filming Page (filming.html; additional site page)](docs/wireframes/p4_extra_filming.png)
+- [Filming Page (filming.html; additional site page, post mvp)](docs/wireframes/p4_extra_filming.png)
 
 ### Fonts
 - [Fontpair](https://www.fontpair.co/) was used to identify complementary font pairs for use across the site. The pair selected for use on this site - [Karla & Merriweather](https://www.fontpair.co/pairings/karla-merriweather) 
-- Addiitonal site icons were obtained from [Fontawesome](https://fontawesome.com/). [Version 5](https://fontawesome.com/v5/search?o=r&m=free) was adopted due to being the version used in the Code Institute course. Future development however would involve upgrading this to the latest version.
+- The selected fonts were then imported into the stylesheet from [Google Fonts](https://fonts.google.com/).
+- Additional site icons were obtained from [Fontawesome](https://fontawesome.com/). [Version 5](https://fontawesome.com/v5/search?o=r&m=free) was adopted due to being the version used in the Code Institute course. Future development however would involve upgrading this to the latest version.
 
 ### Color Scheme
 The color scheme for the site was taken from the colors of Wah Kong near her mooring, using a photo including her deck, mast and cabin, the sea, and a clear blue sky. The photo was uploaded to the [Coolors](https://coolors.co/user/palettes) color palette creation tool, resulting in the following site color palette:
@@ -127,10 +126,12 @@ These colors were added as variables to the stylesheet to allow for easy reuse t
 ```
 
 ### Site Content
-- The site will primarily comprise photographs, plus one video, taken by myself and the yacht owner. 
+- The photographs used throuughout the site be taken, and owned, by myself and the yacht owner. 
 - The text will be written by me, based on information provided by the yacht owner.
+- Video of Wah Kong at sea will be taken, and owned by, myself.
 - Movie trailer for 'On Chesil Beech' will be embedded from [YouTube](https://youtu.be/ZR6DWDfMDlM).
 - The site icon of an Anchor was created on [Favicon](https://www.favicon.cc/?action=icon&file_id=996800), where it was both downloaded for project and shared online for others to use. 
+- Location map for Weymouth Marina will be embedded from [Google Maps](https://www.google.co.uk/maps.
 
 
 ## Site Features
@@ -138,19 +139,41 @@ These colors were added as variables to the stylesheet to allow for easy reuse t
 *(note:check requirements 3.2)*
 
 ### Future Features
-- Incorporate [modal images](https://www.w3schools.com/howto/howto_css_modals.asp) into the photo gallery, allowing full size viewing of each gallery photo. 
-- Add backend functionality to process submitted contact form data and respond accordingly, rather than using Code institute's form submission checker.
-- Add a page of resources, including links to the marina, yacht club, and local boat yard.
+This site was designed and developed according to the Milestone Project 1 requirements. As such it can be improved with further development to enhance funtionality and usability for the identified users. This includes (but is not limited to) the following:
 
-In addition, if additional images are required,  royalty-free images will be obtained from [Pixabay](https://pixabay.com/). Those selected would be usable under their [Content Licence](https://pixabay.com/service/terms/) (Section 4) or licenced under the Creative [Commons Zero licence](https://pixabay.com/service/terms/) (Section 3).
+- Incorporate [modal images](https://www.w3schools.com/howto/howto_css_modals.asp) into the photo gallery, allowing full size viewing of each gallery photo. 
+- Add backend functionality to process submitted contact form data and respond accordingly (rather than using Code institute's form submission checker).
+- Add a page of resources, including links to the [marina](https://www.boatfolk.co.uk/weymouth-marina-dorset), [yacht club](https://royal-dorset.com/), and [local boat yard](https://www.clarksboatworks.co.uk/).
+- Current current social media links (site footer) do not currently direct the user to specific pages for Wah Kong, as these don't yet exist. Instead these links direct the user to the primary platform ,anding page. In future a social media presence will be developed, and links then added to the site footer.
+
+If additional images are required,  royalty-free images will be obtained from [Pixabay](https://pixabay.com/). Those selected would be usable under their [Content Licence](https://pixabay.com/service/terms/) (Section 4) or licenced under the Creative [Commons Zero licence](https://pixabay.com/service/terms/) (Section 3).
+
+
+### Accessibility
+Site accessibility was considered throughout the deisgn and build process:
+- Considering site colors for clarity and contrast.
+- Using semantic HTML to dinstinguish between site elements.
+- Adding descriptions to the alt attribute to all images across the site.
+- Using aria labels to describe elements where there is no/limited descriptive text, such as the contact form data entry boxes.
+- Including screen reader support for site icons (footer) with no explicit text descriptions, and ensuring menu accessibilty by explicitly idenfifying the current page.
 
 - - -
 
 ##  Development Process
 ### Tools
+- UI Wireframes were created using [Balsamiq](https://balsamiq.com/)
+- Code was be developed locally using [Visual Studio Code](https://code.visualstudio.com/)
+- (Chrome DevTools)[https://developer.chrome.com/docs/devtools/], as embedded within Google's Chrome browser, were used to support the development. In particular, the code inspector and the responsive design checker (for checking site responsiveness across all viewports)
+- Versioning was managed locally using Git. All code was then pushed to [GitHub](https://github.com/mikiburgess)
+
 ### Project Management
+Project planning and management was done using the GitHub Projects tool (i.e. a digital Kanban board).
+
 ### Languages
+Pages were created using HTML and CSS. Comments were added throughout for explanation (where appropriate) and clarifying code structure.
+
 ### Frameworks
+This project employed the Boostrap v4.5 framework (the version covered in the course videos). Bootstrap support was obtained through the official (Bootstrap documentation)[https://getbootstrap.com/docs/4.5/getting-started/introduction/, [W3Schools](https://www.w3schools.com/bootstrap/bootstrap_ver.asp, and through the Code Institute Slack Community.
 
 - - -
 
@@ -160,36 +183,35 @@ Results of site testing can be found in [TESTING.MD](docs/testing/TESTING.MD).
 ## Deployment
 
 ## Future Development
-
+*to be completed - currently in separate notes document*
 - - -
 
 ## Credits
 I would like to credit the following resources and individuals for supporting both my learning and the development of this project.
 
-### Content
-- Yacht history, data and images were supplied by Martin Burgess, skipper and current owner of Wah Kong II.
-- Additional images and video were taken from my personal library.
+### Site Content
+- Yacht history, data and images were supplied by Martin Burgess, skipper and current owner of Wah Kong II. Additional images and video were taken from my personal library.
 - Movie trailer video embedded from [YouTube](https://www.youtube.com/).
 
-
-### Additional code
+### Additional Code
+- To align the page title text vertically in the frame on top of the hero image on each page, I used the [W3Schools 'How to'](https://www.w3schools.com/howto/howto_css_center-vertical.asp) guide and code (as also linked to explicitly in the project stylesheet).
 - [Bootstrap v4.5](https://getbootstrap.com/) framework in site styling.
 - The fonts used in this project are from [Google](https://fonts.google.com/) and [Fontawesome](https://fontawesome.com/). 
+- Collapsible navigation menu was inspired by, and adpapted from Code Institute's *Whiskey Drop* walkthrough project. 
+- Style of the site button, used on the Contact page, was inspired by Code Institute's *Love Running* walkthrough project.
+- Shadow and hover action of the site button (contact page) was inspired by [W3Schools](https://www.w3schools.com/css/css3_buttons.asp).
 
-
-
-### Learning Resources
+### Learning Resources and Inspiration
 Additional learning resources (*alongside Code Institute*):
 - [Balsamiq Documentation](https://balsamiq.com/wireframes/desktop/docs/symbols/#importing-symbols-from-wireframes-to-go): learning how to use Balsamiq to develop Wireframes during the design stage,
 - [Bootstrap v4.5 Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Building upon the learning undertaken during the course to improve my knowledge and understanding of this framework.
 - [W3Schools](https://www.w3schools.com/): Specifically the reference pages for [CSS](https://www.w3schools.com/css/default.asp) and [Bootstrap](https://www.w3schools.com/bootstrap4/default.asp), and their [Accessibility Guidelines](https://www.w3schools.com/accessibility/index.php).
 - [Medium.com](https://medium.com/): Specifically for the article ['Best Practices on aria-label, aria-labelledby and aria-describedby'](https://medium.com/accessibility-a11y/best-practices-on-aria-label-aria-labelledby-and-aria-describedby-913fc9e396ae) by Saptarshi Katwala.
 - [The Net Ninja on YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR): Git & GitHub Tutorial for Beginners.
-- []()
 
-To create the project README.MD and TESTING.MD files I was inspired by the following: 
-- A Code Institute alumnus, [Kera Cudmore's](https://github.com/kera-cudmore) GitHub repository includes examples and advice for creating these documents for [milestone project 1](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md), plus an example completed repo for [Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club) website.
-- []()
+
+Creation of the README.MD and TESTING.MD files was inspired by the following: 
+- Code Institute alumnus, [Kera Cudmore's](https://github.com/kera-cudmore) GitHub repository includes examples and advice for creating these documents for [milestone project 1](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md), plus an example completed repo for [Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club) website.
 
 ### Acknowledgements
 I would like to acknowledge the following people who helped me complete this milestone project:
