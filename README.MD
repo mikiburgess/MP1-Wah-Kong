@@ -21,8 +21,8 @@ The website completed and presented for Milestone Project 1 is intended to showc
     - [Site Content](#Site-Content)
 - [Site Features](#Site-Features)
     - [Current Features](#Current-Features)
-    - [Future Features](#Future-Features)
     - [Accessibility](#Accessibility)
+    - [Future Features](#Future-Features)
 -  [Development Process](#Development-Process)
     - [Tools](#Tools)
     - [Project Management](#Project-Management)
@@ -30,7 +30,7 @@ The website completed and presented for Milestone Project 1 is intended to showc
     - [Frameworks](#Frameworks)
 - [Testing](#Testing)
 - [Deployment](#Deployment)
-- [Future Development](#Future-Development)
+- [Future Development Practices](#Future-Development-Practices)
 - [Credits](#Credits)
     - [Site Content](#Site-Content)
     - [Code](#Code)
@@ -158,10 +158,13 @@ Site accessibility was considered throughout the deisgn and build process:
 This site was designed and developed according to the Milestone Project 1 requirements. As such it can be improved with further development to enhance funtionality and usability for the identified users. This includes (but is not limited to) the following:
 
 - Incorporate [modal images](https://www.w3schools.com/howto/howto_css_modals.asp) into the photo gallery, allowing full size viewing of each gallery photo. 
+- Improve site performance and accessibility by providing multiple image options (including WebP and jpeg) for all site photographs.
 - Add backend functionality to process submitted contact form data and respond accordingly (rather than using Code institute's form submission checker).
 - Add a page of resources, including links to the [marina](https://www.boatfolk.co.uk/weymouth-marina-dorset), [yacht club](https://royal-dorset.com/), and [local boat yard](https://www.clarksboatworks.co.uk/).
-- Improve site performance and accessibility by providing multiple image options (including WebP and jpeg) for all site photographs.
+- Improve consistency of Filming page (changing the text currently in 'card' format to match the text layout format used on the Contact page) and improving responsiveness of the YouTube video.
+- Add link to top of page to the standard site footer, to improve site easy of use (especially for the Gallery page).
 - Current current social media links (site footer) do not currently direct the user to specific pages for Wah Kong, as these don't yet exist. Instead these links direct the user to the primary platform ,anding page. In future a social media presence will be developed, and links then added to the site footer.
+- Footer 'Copyright notice' to be updated as appropriate for the official (professional) deployment stage. 
 
 If additional images are required,  royalty-free images will be obtained from [Pixabay](https://pixabay.com/). Those selected would be usable under their [Content Licence](https://pixabay.com/service/terms/) (Section 4) or licenced under the Creative [Commons Zero licence](https://pixabay.com/service/terms/) (Section 3).
 
@@ -193,7 +196,7 @@ Results of site testing can be found in [TESTING.MD](docs/testing/TESTING.MD).
 
 ## Deployment
 
-## Future Development
+## Future Development Practices
 Reflecting on the lessons learned and skills developed during this project,  both the site and project could be improved in a number of ways. 
 In future projects, including developing the Future Features listed above, I therefore entend to consider the following:
 
