@@ -1,6 +1,12 @@
 # Wah Kong II Website
 
-Testing of Milestone Project 1 - Wah Kong II.
+Overview of the testing of Milestone Project 1 - Website for yacht Wah Kong II.
+
+![Wah Kong Website shown on a range of devices](../images/wah_kong_website.png)
+
+[Visit the deployed site for Wah Kong II](https://mikiburgess.github.io/MP1-Wah-Kong/index.html)
+
+- - -
 
 ## Table of Contents
 
