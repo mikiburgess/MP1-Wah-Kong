@@ -225,9 +225,9 @@ Results of site testing can be found in [testing.md](docs/testing/testing.md).
 ## Deployment and Local Development
 
 ### Deployment
-[Github Pages](https://pages.github.com/) was used to deploy the live website. The instructions to achieve this are below:
+[GitHub Pages](https://pages.github.com/) was used to deploy the live website. The instructions to achieve this are below:
 
-1. Log in (or sign up) to Github.
+1. Log in (or sign up) to GitHub.
 2. Locate the project repository.
 3. Click on the Settings link.
 4. Scroll down to find the Pages link in the left hand side navigation bar.
@@ -238,8 +238,21 @@ Results of site testing can be found in [testing.md](docs/testing/testing.md).
 The site will now be deployed by GitHub Pages and available at the URL shown near the top of the page. Click on the Visit Site button to be taken there directly.
 
 ### Local Development
+
 #### How to Fork this Project Repo
+1. Log in (or sign up) to Github.
+2. Navigate to the project repository - [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong).
+3. Click the Fork button at the top right of the page.
+
 #### How to Clone this Project Repo
+1. Log in (or sign up) to GitHub.
+2. Navigate to the project repository - [mikiburgess/MP1-Wah-Kong](https://github.com/mikiburgess/MP1-Wah-Kong).
+2. Click on the Code button, ans select the Local tab.
+3. Select whether you would like to clone with HTTPS, SSH or GitHub CLI.
+4. Copy the link shown by clicking the 'copy' button.
+5. Open the  in your code editor and change the current working directory to the location you want to use for the cloned directory.
+6. Type the command 'git clone' into the terminal and then paste the link you copied from GitHub. 
+7. Press enter. You will now have a clone of the project repo.
 
 ## Future Development Practices
 Reflecting on the lessons learned and skills developed during this project,  both the site and project could be improved in a number of ways. 
