@@ -277,24 +277,24 @@ Reflecting on the lessons learned and skills developed during this project,  bot
 In future projects, including developing the Future Features listed above, I therefore entend to consider the following:
 
 ### Website Design and Development
-- Stylesheet: Structure and build first draft of stylesheet after initial design stage, as opposed to building it concurrently with site content. This would improve consistency, reduce duplication, and increase opportunities for style reuse.
-- Grid Layout Design: In addition to wireframes, a grid overlay design will also be completed to support the use of a grid layout framework (such as Bootstrap).
-- Deployment: For assessment and portfolio development purposes this site is hosted on GitHub. In future this will be hosted externally with direct URL, based on the requirements of the yacht owner.
-- Photographs: To improve performance of sites in future, all images will be processed using a tool to compress them appropriately for online download, such as [TinyPNG](https://tinypng.com/) and available in a variety of formats (inc. [WebP](https://web.dev/serve-images-webp/)) to improve performace and browser compatability.
+- *Stylesheet*: Structure and build first draft of stylesheet after initial design stage, as opposed to building it concurrently with site content. This would improve consistency, reduce duplication, and increase opportunities for style reuse.
+- *Grid Layout Design*: In addition to wireframes, a grid overlay design will also be completed to support the use of a grid layout framework (such as Bootstrap).
+- *Deployment*: For assessment and portfolio development purposes this site is hosted on GitHub. In future this will be hosted externally with direct URL, based on the requirements of the yacht owner.
+- *Photographs*: To improve performance of sites in future, all images will be processed using a tool to compress them appropriately for online download, such as [TinyPNG](https://tinypng.com/) and available in a variety of formats (inc. [WebP](https://web.dev/serve-images-webp/)) to improve performace and browser compatability.
 
 ### Version Control
-Commit messages: Git commit mesages would be improved by writing them in a standard format -  ``` <type>(<scope>): <subject> ``` 
+- *Commit messages*: Git commit mesages would be improved by writing them in a standard format -  ``` <type>(<scope>): <subject> ``` 
 This would be based on the conventions presented by [Ishan Makadia on dev.to](https://dev.to/ishanmakadia/git-commit-message-convention-that-you-can-follow-1709) and [Apurva Jain on medium.com](https://medium.com/swlh/writing-better-commit-messages-9b0b6ff60c67)
-Commit frequency: Reflecting on the early days of the project with my mentor, we realised that my use of git could be improved by increasing the number of commits. By committing changes more often (after every feature addition, bug fix, etc), this will improve rep usability and help develop an improved professional development practice.  
+- *Commit frequency*: Reflecting on the early days of the project with my mentor, we realised that my use of git could be improved by increasing the number of commits. By committing changes more often (after every feature addition, bug fix, etc), this will improve rep usability and help develop an improved professional development practice.  
 
 ### Project
-- Version Control: Develop professional practice by committing changes to Git and pushing to GitHub repo more regularly during the development process, through the development of a clear version control procedure. 
-- MD files: Rather than creating these post-development from the notes taken during the project, these will be designed during the project startup process and developed concurrently with primary project deliverables.
-- Wireframes: Small and large wireframes were produced for this project. In future a minimum of three will be produced, for small (mobile), medium (tablet) and large (desktop) viewports.
+- *Version Control*: Develop professional practice by committing changes to Git and pushing to GitHub repo more regularly during the development process, through the development of a clear version control procedure. 
+- *MD files*: Rather than creating these post-development from the notes taken during the project, these will be designed during the project startup process and developed concurrently with primary project deliverables.
+- *Wireframes*: Small and large wireframes were produced for this project. In future a minimum of three will be produced, for small (mobile), medium (tablet) and large (desktop) viewports.
 
 ### Third-Party Resources
-- Bootstrap: Bootstrap v4 was used during this project due to it's use in the course. Moving to Bootstrap v5 would therefore be done in the future.
-- Fontawesome: Fontawesome v5 was used during this project due to it's use in the course. Upgrading to v6 will be done in future projects.
+- *Bootstrap*: Bootstrap v4 was used during this project due to it's use in the course. Moving to Bootstrap v5 would therefore be done in the future.
+- *Fontawesome*: Fontawesome v5 was used during this project due to it's use in the course. Upgrading to v6 will be done in future projects.
 
 - - -
 
