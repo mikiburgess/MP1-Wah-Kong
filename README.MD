@@ -41,6 +41,11 @@ The website completed and presented for Milestone Project 1 is intended to showc
 
 ## Introduction
 
+This repository and associated deployed website comprise my submission for the Diploma in Web Development, Milestone Project 1. This project was developed according to the stated [project requirements](docs/requirements.md), and is described here  ...
+
+- - -
+
+
 ## User Experience (UX)
 This website showcases Wah Kong II, a classic wooden yacht currently moored in Weymouth, UK. Originally built in 1958, due to her age and construction she is of potential interest to the classic boat community.
 She's been with her current owner since 2004, but at some point in the future she may need to be sold to a new owner. After discussion with the current owner it was decided that a website would be useful for communicating with various sailing communities, 
@@ -96,11 +101,11 @@ Plus, if time allows post-mvp (minimal viable product):
 
 ### Wireframes
 Wireframes were designed after the initial discussion with the yacht owner, reviewed with them during a second discussion in order to gather their feedback, then revised. The revision included adding a map to the contact page, showing the location. The final set of wireframes used for development are listed below:  
-- [General page design](docs/wireframes/general_design.png) - the foundation for developing all site wireframes
-- [Home Page (index.html)](docs/wireframes/p1_index.png)
-- [Photo Gallery (gallery.html)](docs/wireframes/p2_gallery.png)
-- [Contact Page (contact.html)](docs/wireframes/p3_contact.png)
-- [Filming Page (filming.html; additional site page, post mvp)](docs/wireframes/p4_extra_filming.png)
+- [General page design](docs/wireframes/general_design.png) - This is the foundation for developing all site wireframes, ensuring a consistent layout and design propagates throughout the site.
+- [Home Page (index.html)](docs/wireframes/p1_index.png) - Landing page, making clear the purpose of site as a showcase for this yacht.
+- [Photo Gallery (gallery.html)](docs/wireframes/p2_gallery.png) - For displaying a variety of photographs, highlighting differnt aspects of the yacht. (due to mix of landscape and portrait format images, these will be grouped into sets of 4 images, as illustrated in the wireframe)
+- [Contact Page (contact.html)](docs/wireframes/p3_contact.png) - Facility for site visitors to find out more by contacting the crew/owner via an online form, or visiting in person by provision of a location map.
+- [Filming Page (filming.html; additional site page, post-mvp)](docs/wireframes/p4_extra_filming.png) - Page to be added to the site after the minimum 3-pages have been created. This will provide an example of where the yacht has been hired for professional media use. 
 
 ### Fonts
 - [Fontpair](https://www.fontpair.co/) was used to identify complementary font pairs for use across the site. The pair selected for use on this site - [Karla & Merriweather](https://www.fontpair.co/pairings/karla-merriweather) 
@@ -126,7 +131,7 @@ These colors were added as variables to the stylesheet to allow for easy reuse t
 ```
 
 ### Site Content
-- The photographs used throuughout the site be taken, and owned, by myself and the yacht owner. 
+- The photographs used throughout the site be taken, and owned, by myself and the yacht owner. 
 - The text will be written by me, based on information provided by the yacht owner.
 - Video of Wah Kong at sea will be taken, and owned by, myself.
 - Movie trailer for 'On Chesil Beech' will be embedded from [YouTube](https://youtu.be/ZR6DWDfMDlM).
@@ -134,22 +139,13 @@ These colors were added as variables to the stylesheet to allow for easy reuse t
 - Location map for Weymouth Marina will be embedded from [Google Maps](https://www.google.co.uk/maps.
 
 
+- - -
+
 ## Site Features
 ### Current Features
 *(note:check requirements 3.2)*
 
-### Future Features
-This site was designed and developed according to the Milestone Project 1 requirements. As such it can be improved with further development to enhance funtionality and usability for the identified users. This includes (but is not limited to) the following:
-
-- Incorporate [modal images](https://www.w3schools.com/howto/howto_css_modals.asp) into the photo gallery, allowing full size viewing of each gallery photo. 
-- Add backend functionality to process submitted contact form data and respond accordingly (rather than using Code institute's form submission checker).
-- Add a page of resources, including links to the [marina](https://www.boatfolk.co.uk/weymouth-marina-dorset), [yacht club](https://royal-dorset.com/), and [local boat yard](https://www.clarksboatworks.co.uk/).
-- Current current social media links (site footer) do not currently direct the user to specific pages for Wah Kong, as these don't yet exist. Instead these links direct the user to the primary platform ,anding page. In future a social media presence will be developed, and links then added to the site footer.
-
-If additional images are required,  royalty-free images will be obtained from [Pixabay](https://pixabay.com/). Those selected would be usable under their [Content Licence](https://pixabay.com/service/terms/) (Section 4) or licenced under the Creative [Commons Zero licence](https://pixabay.com/service/terms/) (Section 3).
-
-
-### Accessibility
+### Site Accessibility
 Site accessibility was considered throughout the deisgn and build process:
 - Considering site colors for clarity and contrast.
 - Using semantic HTML to dinstinguish between site elements.
@@ -157,14 +153,29 @@ Site accessibility was considered throughout the deisgn and build process:
 - Using aria labels to describe elements where there is no/limited descriptive text, such as the contact form data entry boxes.
 - Including screen reader support for site icons (footer) with no explicit text descriptions, and ensuring menu accessibilty by explicitly idenfifying the current page.
 
+
+### Future Features
+This site was designed and developed according to the Milestone Project 1 requirements. As such it can be improved with further development to enhance funtionality and usability for the identified users. This includes (but is not limited to) the following:
+
+- Incorporate [modal images](https://www.w3schools.com/howto/howto_css_modals.asp) into the photo gallery, allowing full size viewing of each gallery photo. 
+- Add backend functionality to process submitted contact form data and respond accordingly (rather than using Code institute's form submission checker).
+- Add a page of resources, including links to the [marina](https://www.boatfolk.co.uk/weymouth-marina-dorset), [yacht club](https://royal-dorset.com/), and [local boat yard](https://www.clarksboatworks.co.uk/).
+- Improve site performance and accessibility by providing multiple image options (including WebP and jpeg) for all site photographs.
+- Current current social media links (site footer) do not currently direct the user to specific pages for Wah Kong, as these don't yet exist. Instead these links direct the user to the primary platform ,anding page. In future a social media presence will be developed, and links then added to the site footer.
+
+If additional images are required,  royalty-free images will be obtained from [Pixabay](https://pixabay.com/). Those selected would be usable under their [Content Licence](https://pixabay.com/service/terms/) (Section 4) or licenced under the Creative [Commons Zero licence](https://pixabay.com/service/terms/) (Section 3).
+
+
+
 - - -
 
 ##  Development Process
 ### Tools
 - UI Wireframes were created using [Balsamiq](https://balsamiq.com/)
 - Code was be developed locally using [Visual Studio Code](https://code.visualstudio.com/)
-- (Chrome DevTools)[https://developer.chrome.com/docs/devtools/], as embedded within Google's Chrome browser, were used to support the development. In particular, the code inspector and the responsive design checker (for checking site responsiveness across all viewports)
-- Versioning was managed locally using Git. All code was then pushed to [GitHub](https://github.com/mikiburgess)
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/), as embedded within Google's Chrome browser, were used to support the development. In particular, the code inspector, [Lighthouse](https://developer.chrome.com/docs/lighthouse/), and the responsive design checker (for checking site responsiveness across all viewports)
+- Versioning was managed locally using [Git](https://git-scm.com/). All code was then pushed to [GitHub](https://github.com/mikiburgess).
+- Completed site was deployed using [GitHub Pages](https://pages.github.com/).
 
 ### Project Management
 Project planning and management was done using the GitHub Projects tool (i.e. a digital Kanban board).
@@ -183,7 +194,28 @@ Results of site testing can be found in [TESTING.MD](docs/testing/TESTING.MD).
 ## Deployment
 
 ## Future Development
-*to be completed - currently in separate notes document*
+Reflecting on the lessons learned and skills developed during this project,  both the site and project could be improved in a number of ways. 
+In future projects, including developing the Future Features listed above, I therefore entend to consider the following:
+
+### Website Design and Development
+- Stylesheet: Structure and build first draft of stylesheet after initial design stage, as opposed to building it concurrently with site content. This would improve consistency, reduce duplication, and increase opportunities for style reuse.
+- Grid Layout Design: In addition to wireframes, a grid overlay design will also be completed to support the use of a grid layout framework (such as Bootstrap).
+- Deployment: For assessment and portfolio development purposes this site is hosted on GitHub. In future this will be hosted externally with direct URL, based on the requirements of the yacht owner.
+- Photographs: To improve performance of sites in future, all images will be processed using a tool to compress them appropriately for online download, such as [TinyPNG](https://tinypng.com/) and available in a variety of formats (inc. [WebP](https://web.dev/serve-images-webp/)) to improve performace and browser compatability.
+
+### Version Control
+Commit messages: Git commit mesages would be improved by writing them in a standard format - "<type>(<scope>): <subject>". This would be based on the conventions presented by Ishan Makadia on dev.to (https://dev.to/ishanmakadia/git-commit-message-convention-that-you-can-follow-1709) and Apurva Jain on medium.com (https://medium.com/swlh/writing-better-commit-messages-9b0b6ff60c67)
+Commit frequency: Reflecting on the early days of the project with my mentor, we realised that my use of git could be improved by increasing the number of commits. By committing changes more often (after every feature addition, bug fix, etc), this will improve rep usability and help develop an improved professional development practice.  
+
+### Project
+- Version Control: Develop professional practice by committing changes to Git and pushing to GitHub repo more regularly during the development process, through the development of a clear version control procedure. 
+- MD files: Rather than creating these post-development from the notes taken during the project, these will be designed during the project startup process and developed concurrently with primary project deliverables.
+- Wireframes: Small and large wireframes were produced for this project. In future a minimum of three will be produced, for small (mobile), medium (tablet) and large (desktop) viewports.
+
+### Third-Party Resources
+- Bootstrap: Bootstrap v4 was used during this project due to it's use in the course. Moving to Bootstrap v5 would therefore be done in the future.
+- Fontawesome: Fontawesome v5 was used during this project due to it's use in the course. Upgrading to v6 will be done in future projects.
+
 - - -
 
 ## Credits
@@ -198,6 +230,7 @@ I would like to credit the following resources and individuals for supporting bo
 - [Bootstrap v4.5](https://getbootstrap.com/) framework in site styling.
 - The fonts used in this project are from [Google](https://fonts.google.com/) and [Fontawesome](https://fontawesome.com/). 
 - Collapsible navigation menu was inspired by, and adpapted from Code Institute's *Whiskey Drop* walkthrough project. 
+- Hero image styling was inspired by, and adapted from, Code Institute's *Love Running* walkthrough project.
 - Style of the site button, used on the Contact page, was inspired by Code Institute's *Love Running* walkthrough project.
 - Shadow and hover action of the site button (contact page) was inspired by [W3Schools](https://www.w3schools.com/css/css3_buttons.asp).
 
