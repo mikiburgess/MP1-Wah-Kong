@@ -104,18 +104,40 @@ None of these warnings require action.
 Lighthouse was used to generate reports on the Mobile and Desktop versions of each site page.
 This was done by opening the deployed site in a Google Chrome Incognito page (to ensure all Chrome extensions were disabled for testing).
 
-Below is a tabular summary of the Lighthouse report results for every page, with links to the detailed reports in HTML format (for reference). Following the results is a reflection of the results and actions that would be undertaken in future to improve site performance.
+Below is a tabular summary of the Lighthouse report results for every page, with links to the detailed reports (for reference). Following the results is a reflection of the results and actions that would be undertaken in future to improve site performance.
 
-| Report| Performance | Accessibility | Best Practices | SEO | Report (HTML) |
+| Test | Performance | Accessibility | Best Practices | SEO | Report |
 | -------- | -------- | -------- | -------- | -------- | -------- |
-| Index - Mobile |  |  |  |  |  |
-| Index - Desktop |  |  |  |  |  |
-| Gallery - Mobile |  |  |  |  |  |
-| Gallery - Desktop |  |  |  |  |  |
-| Filming - Mobile |  |  |  |  |  |
-| Filming - Desktop |  |  |  |  |  |
-| Contact - Mobile |  |  |  |  |  |
-| Contact - Desktop |  |  |  |  |  |
+| Index - Mobile | ![73](lighthouse/ratings/073.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/index-mobile-report.pdf) / [html](lighthouse/index-mobile-report.html) |
+| Index - Desktop | ![94](lighthouse/ratings/094.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/index-desktop-report.pdf) / [html](lighthouse/index-desktop-report.html) |
+| Gallery - Mobile | ![73](lighthouse/ratings/073.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/gallery-mobile-report.pdf) / [html](lighthouse/gallery-mobile-report.html) |
+| Gallery - Desktop | ![75](lighthouse/ratings/075.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/gellery-desktop-report.pdf) / [html](lighthouse/gallery-desktop-report.html) |
+| Filming - Mobile | ![67](lighthouse/ratings/067.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/filming-mobile-report.pdf) / [html](lighthouse/filming-mobile-report.html) |
+| Filming - Desktop | ![71](lighthouse/ratings/071.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/filming-desktop-report.pdf) / [html](lighthouse/filming-desktop-report.html) |
+| Contact - Mobile | ![76](lighthouse/ratings/076.jpg) | ![93](lighthouse/ratings/093.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/contact-mobile-report.pdf) / [html](lighthouse/contact-mobile-report.html) |
+| Contact - Desktop | ![95](lighthouse/ratings/095.jpg) | ![93](lighthouse/ratings/093.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/contact-desktop-report.pdf) / [html](lighthouse/contact-desktop-report.html) |
+
+
+Based on the above it can be seen that there are a few areas where the site could be improved.
+The main issues to be considered in future project, and rectified when developing this site further for the client, are listed below:
+
+### Performance
+- *Serve images in next-gen formats*: This project currently uses png and jpg images. During project development I learned about WepP format, and multiple browsers by providing both WebP and alternative formats. This will improve site performance, especially on mobile devices.
+- *Efficiently encode images*: Improved encoding will reduce network payload and improve page load time.
+- *Properly size images*: All photographs need to be checked and sized according to a standard site size setting. Height and Width attributes can then be set for each photo. This will reduce uneccessary processing and improve performance.
+
+### Accessibility
+- *Heading elements are not in a sequentially-descending order*: This was highlighted as H5 was used as a small heading, when on reflection this should have been a sequential decending from previous headers. According to the final design, all H5 elements will be revised to H4 and the stylesheet updated accordingly.
+- *Background and foreground colors do not have a sufficient contrast ratio*: In future more time will be spent during the design stage testing the color palette to ensure the colors support accessibility.
+- *```<frame>``` or ```<iframe>``` elements do not have a title*: Where used, in future these will incorporate title attributes to improve accessibility.
+
+### Best Practices
+- All fine.
+
+### Progressive Wep App (PWA)
+Additional suggestions for improvement were included in the PWA section of each report.
+- *Does not set a theme color for the address bar*: In future a color scheme will be explicitly specified for each page, for both light and dark, using the ```<meta name="theme">``` tag, with corresponding color themes in the css stylesheet (standard - light; media query for suporting 'dark').
+- In future projects sites will be checked against a [PWA checklist](https://web.dev/pwa-checklist/?utm_source=lighthouse&utm_medium=devtools).
 
 
 ## User Story Testing
