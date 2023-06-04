@@ -25,7 +25,7 @@ Overview of the testing of Milestone Project 1 - Website for yacht Wah Kong II.
     - [Best Practices](#Best-Practices)
     - [Progressive Wep App (PWA)](#Progressive-Wep-App-(PWA))
 - [User Story Testing](#User-Story-Testing)
-- [Features](#Features) 
+- [Features](#Features)
 - [Bugs](#Bugs)
     - [Fixed Bugs](#Fixed-Bugs)
     - [Unfixed Bugs](#Unfixed-Bugs)
@@ -171,6 +171,7 @@ Additional suggestions for improvement were included in the PWA section of each 
 - - -
 
 ## User Story Testing
+To validate the achievement of original website goals, the table below revisits every user story and reviews how each is achieved by the final website.
 
 | User Story | Testing |
 | ----------- | ----------- |
@@ -192,7 +193,7 @@ Additional suggestions for improvement were included in the PWA section of each 
 ## Features
 All site features have been manually tested. The results of this testing are shown in the tables below:
 
-### Navigation bar
+### Navigation Bar
 | Feature | Expected Outcome | Action | Result | Pass/Fail | 
 | ------- | ------- | ------- | ------- | ------- |
 | Logo/Title (upper left corner)| Address on hover is shown as site home page | Hover over logo | Address is shown as site home page | Pass | 
@@ -211,7 +212,7 @@ All site features have been manually tested. The results of this testing are sho
 | Twitter Logo | When clicked, Twitter landing page opens in a new browser tab | Click logo | Twitter landing page opens in a new browser tab | Pass | 
 | TripAdvisor Logo | When clicked, TripAdvisor landing page opens in a new browser tab | Click logo | TripAdvisor landing page opens in a new browser tab | Pass | 
 
-### Site Content
+### Interactive Site Content
 | Feature | Expected Outcome | Action | Result | Pass/Fail | 
 | ------- | ------- | ------- | ------- | ------- |
 | Home page video | When page loads, video autoplay is disabled | Load home page | Video does not autoplay | Pass |
