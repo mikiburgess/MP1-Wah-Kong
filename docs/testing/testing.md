@@ -15,7 +15,7 @@ Overview of the testing of Milestone Project 1 - Website for yacht Wah Kong II.
 - [Browser Compatability](#browser-compatbility)
 - [Code Validation](#Code-Validation)
 - [Lighthouse](#Lighthouse)
-- User Story Testing (inc able: 'User Story' and 'Testing' columns)
+- [User Story Testing](#User-Story-Testing)
 - Features (manually test all features. again inc table)
 - [Bugs](#Bugs)
     - [Fixed Bugs](#Fixed-Bugs)
@@ -141,7 +141,6 @@ Additional suggestions for improvement were included in the PWA section of each 
 
 
 ## User Story Testing
-*(inc able: 'User Story' and 'Testing' columns)*
 
 | User Story | Testing |
 | ----------- | ----------- |
@@ -150,12 +149,14 @@ Additional suggestions for improvement were included in the PWA section of each 
 | As a First Time Visitor, I want to be able to where the organisation is located. | Google map is embedded within the contact page, showing location of Wah Kong's home marina.  |
 | As a Returning Visitor, I want to be able to navigate the site quickly and easily in order to find the information I'm looking for. | Navigation menu is clearly visible at the top of every page. |
 | As a Returning Visitor, I want to be able to contact the owner with comments and/or to ask questions. | The contact form enables any visitor to send a message or question directly to the crew. There are no limits as to the number of messages a user can manually submit through this form. |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| As a Site Visitor, I want to be able to see photos and read about the history and construction in order to learn more about her. | Brief history and summary of construction is presented on the home/landing page. The Gallery includes internal and external photographs of the yacht, including the deck, hull, cockpit, cabin, sails and mast. |
+| As an Event Organiser, I want to quickly and easily get an overview of the history and build of the boat so that I can determine whether it's right for the event. | Brief history and summary of construction is presented on the home/landing page, with summary of her availability for hire. |
+| As a Filmmaker/Photographer, I want to be able to see a variety of images so that I can determine whether the yacht may be a suitable candidate for the production and therefore worth reviewing on site. | A gallery of photographs is provided, showcasing a variety of aspects of the yacht herself and views from the yacht. The filming page also presents one example of where and how she was used in a movie. Availability for hire is summarised on the home/landing page. |
+| As a Potential New Owner, I want to read about the specifications, construction and history, be able to view photos of various elements of the yacht, so that I can determine whether she may be suitable for me therefore worth reviewing on site. | Brief history and summary of her specifications and construction is presented on the home/landing page. The Gallery includes internal and external photographs of the yacht, including the deck, hull, cockpit, cabin, sails and mast. |
+| As the Owner, I want to be able to showcase my yacht so that anyone interested in her (national and international) can find out more and contact me directly. | Site contains a variety of images, and two videos, showing a number of aspects of the yacht, and provides an insight into what she is like to sail. Site has been deployed on Github Pages, and in future will be deployed on a server with a bespoke URL, making this accessible worldwide.  |
+| As the Owner, I want to advertise the yacht for potential commercial work, in order to raise fund for her maintenance. | Availability for hire is summarised on the home/landing page. The filming page showcases one example of where and how she was used in a movie. The Contact page provides a quick way for interested parties to make direct contact with the owner. |
+| As the Owner, I want to be able to inform potential buyers of her details so that, in the future, I will be able to sell her to a classic yacht enthusiast. | Brief history and summary of her specifications and construction is presented on the home/landing page. The Gallery includes internal and external photographs of the yacht, including the deck, hull, cockpit, cabin, sails and mast. The Contact page provides a quick way for any potential new owner to make direct contact with the current owner. |
+
 
 ## Features
 *(manually test all features. again inc table)*
