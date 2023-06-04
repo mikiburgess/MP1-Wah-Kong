@@ -38,6 +38,7 @@ This document describes the testing process and results for Milestone Project 1.
 - [Main project README document](../../README.MD)
 - [Deployed web site](https://mikiburgess.github.io/MP1-Wah-Kong/)
 
+- - -
 
 ## Browser Compatability
 Browser compatability testing was completed with Chrome, Firefox, Safari and Opera, running on a MacBook. Edge and IE were not tested at this stage due to lack of access to those browsers. Before professional site deployment, compatability would need to be tested on Windows-specific and a selection of mobile-specific browsers.
@@ -189,13 +190,47 @@ Additional suggestions for improvement were included in the PWA section of each 
 - - -
 
 ## Features
-*(manually test all features. again inc table)*
+All site features have been manually tested. The results of this testing are shown in the tables below:
 
-| Feature | Action (test) | Effect (result) |
-| ----------- | ----------- |
-| | | |
-| | | |
-| | | |
+### Navigation bar
+| Feature | Expected Outcome | Action | Result | Pass/Fail | 
+| ------- | ------- | ------- | ------- | ------- |
+| Logo/Title (upper left corner)| Address on hover is shown as site home page | Hover over logo | Address is shown as site home page | Pass | 
+| Logo/Title (upper left corner)| When clicked, visitor is returned to the home page | Click logo | Returned to the home page | Pass | 
+| Home Page option | When clicked, visitor is taken to the Gallery page | Click option | Visitor is taken to Home Page | Pass | 
+| Gallery Page option | When clicked, visitor is taken to the Gallery page | Click option | Visitor is taken to Gallery Page | Pass | 
+| Filming Page option | When clicked, visitor is taken to the Filming page | Click option | Visitor is taken to Filming Page | Pass | 
+| Contact Page option | When clicked, visitor is taken to the Contact page | Click option | Visitor is taken to Contact Page | Pass | 
+
+### Footer
+| Feature | Expected Outcome | Action | Result | Pass/Fail | 
+| ------- | ------- | ------- | ------- | ------- |
+| Facebook Logo | When clicked, Facebook landing page opens in a new browser tab | Click logo | Facebook landing page opens in a new browser tab | Pass | 
+| Instagram Logo | When clicked, Instagram landing page opens in a new browser tab | Click logo | Instagram landing page opens in a new browser tab | Pass | 
+| YouTube Logo | When clicked, YouTube landing page opens in a new browser tab | Click logo | YouTube landing page opens in a new browser tab | Pass | 
+| Twitter Logo | When clicked, Twitter landing page opens in a new browser tab | Click logo | Twitter landing page opens in a new browser tab | Pass | 
+| TripAdvisor Logo | When clicked, TripAdvisor landing page opens in a new browser tab | Click logo | TripAdvisor landing page opens in a new browser tab | Pass | 
+
+### Site Content
+| Feature | Expected Outcome | Action | Result | Pass/Fail | 
+| ------- | ------- | ------- | ------- | ------- |
+| Home page video | When page loads, video autoplay is disabled | Load home page | Video does not autoplay | Pass |
+| Home page video | When play button clicked, video plays | Click play button | Video plays | Pass |
+| Filming page video | When page loads, movie trailer (video) autoplay is disabled | Load home page | Movie trailer (video) does not autoplay | Pass |
+| Filming page video | When play button clicked, movie trailer (video) plays | Click play button | Movie trailer (video) plays | Pass |
+| Contact Page Map | When visitor clicks on the option to 'View Larger Map', larger map opens in new browser tab | Click 'View Larger Map' | Larger map opens in new browser tab | Pass |
+
+### Contact Form
+| Feature | Expected Outcome | Action | Result | Pass/Fail | 
+| ------- | ------- | ------- | ------- | ------- |
+| First name - empty | If empty when Submit button clicked, message 'Please fill in this field' is displayed | Click Submit button when field empty | Message 'Please fill in this field' is displayed | Pass |
+| Surname - empty | If empty when Submit button clicked, yet First name field has been completed, message 'Please fill in this field' is displayed | Click Submit button when field empty and First name field is not empty | Message 'Please fill in this field' is displayed | Pass |
+| Email Address - empty | If empty when Submit button clicked, yet previous fields have been completed, message 'Please fill in this field' is displayed | Click Submit button when field empty and previous fields are not empty | Message 'Please fill in this field' is displayed | Pass |
+| Message - empty | If empty when Submit button clicked, yet previous fields have been completed, message 'Please fill in this field' is displayed | Click Submit button when field empty and previous fields are not empty | Message 'Please fill in this field' is displayed | Pass |
+| Email address in incorrect format | If email address not in correct format when Submit button clicked, message 'Please include an @ in the email address' is displayed | Click Submit button when field does not contain valid email address | Message 'Please include an @ in the email address' is displayed | Pass |
+| I'm a Human checkbox | If Submit button is clicked when this checkbox is not ticked yet all other fields are complete, message 'Please tick this box if you want to proceed' is displayed | Click Submit button with unticked checkbox and other fields completed | Message 'Please tick this box if you want to proceed' is displayed | Pass |
+| Submit form data | If all fields are completed and checkbox is ticked, clicking on Submit button will POST data to CI form checker and confirmation page will be displayed containing submitted data | Click Submit button with all fields complete and checkbox ticked | CI confirmation page is displayed containing submitted data | Pass |
+
 
 - - -
 
