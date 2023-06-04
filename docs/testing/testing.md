@@ -29,6 +29,19 @@ This document describes the testing process and results for Milestone Project 1.
 - [Main project README document](../../README.MD)
 - [Deployed web site](https://mikiburgess.github.io/MP1-Wah-Kong/)
 
+
+## Browser Compatability
+Browser compatability testing was completed with Chrome, Firefox, Safari and Opera, running on a MacBook. Edge and IE were not tested at this stage due to lack of access to those browsers. Before professional site deployment, compatability would need to be tested on Windows-specific and a selection of mobile-specific browsers.
+
+
+| | Chrome | Firefox | Safari | Opera | Notes | 
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- 
+| Intended appearance? | Good | Good | Good | Good | No issues identified |
+| Intended responsiveness? | Good | Good | Good | Good | No issues identified |
+
+Results of the testing undertaken on each browser can also be seen in the following folders: [Chrome](browsers/chrome/), [Firefox](browsers/firefox/), [Safari](browsers/safari/), [Opera](browsers/opera/).
+
+
 ## Responsiveness
 
 Responsiveness tests were undertaken using Google Chrome DevTools on a MacBook. Due to lack of access to multiple devices, all responsiveness tests were completed using the emulation tool. Before professional site deployment, responsiveness would need to be tested on real devices.
@@ -57,17 +70,6 @@ Responsiveness tests were undertaken using Google Chrome DevTools on a MacBook. 
 | Site renders as expected | Good | Good | Good | Good | Good | Good | No issues identified |
 
 Site responsiveness across a selection of viewports can also be reviewed through [Am I Response?](https://ui.dev/amiresponsive?url=https://mikiburgess.github.io/MP1-Wah-Kong/)
-
-
-## Browser Compatability
-*(2-3 browsers. inc summary table)*
-
-| ----------- | ----------- |
-| | Chrome | Edge | Firefox | Safari | Opera | Notes | Evidence |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| Intended appearance? |  |  |  |  |  |
-| Intended responsiveness? |  |  |  |  |  |
-
 
 
 ## Code Validation 
