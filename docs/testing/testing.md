@@ -36,7 +36,7 @@ Responsiveness tests were undertaken using Google Chrome DevTools on a MacBook. 
 ### Devices Tested (Emulated)
 |   | Android Mobile | Apple Mobile | Android Tablet Device | Apple Tablet Device | Desktop 1024px | Desktop >1200px |
 | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
-| Device  | Pixel 2 (411px) | iPhone 6/7/8 (375px) | Galaxy Tab S4 (712px) | iPad (768px) | Emulated 1024px | Emulated 1300px |
+| Device  | Pixel 2 (411px) | iPhone 6/7/8 (375px) | Galaxy Tab S4 (712px) | iPad (768px) | 1024px (emulated) | 1300px (emulated) |
 | Index.html | [standard](responsive/deployed_index_html_Pixel_2.png/) / [full-size](responsive/deployed_index_html_Pixel_2-FULL.png)| [standard](responsive/deployed_index_html_iPhone_6_7_8.png) / [full-size](responsive/deployed_index_html_iPhone_6_7_8-FULL.png) | [standard](responsive/deployed_index_html_Galaxy_Tab_S4.png) / [full-size](responsive/deployed_index_html_Galaxy_Tab_S4-FULL.png) | [standard](responsive/deployed_index_html_iPad.png) / [full-size](responsive/deployed_index_html_iPad-FULL.png) | [standard](responsive/deployed_index_html-1024.png) / [full-size](responsive/deployed_index_html-1024-FULL.png) | [standard](responsive/deployed_index_html-1300.png) / [full-size](responsive/deployed_index_html-1300-FULL.png) |
 | Gallery.html | [standard](responsive/deployed_gallery_html_Pixel_2.png/) / [full-size](responsive/deployed_gallery_html_Pixel_2-FULL.png)| [standard](responsive/deployed_gallery_html_iPhone_6_7_8.png) / [full-size](responsive/deployed_gallery_html_iPhone_6_7_8-FULL.png) | [standard](responsive/deployed_gallery_html_Galaxy_Tab_S4.png) / [full-size](responsive/deployed_gallery_html_Galaxy_Tab_S4-FULL.png) | [standard](responsive/deployed_gallery_html_iPad.png) / [full-size](responsive/deployed_gallery_html_iPad-FULL.png) | [standard](responsive/deployed_gallery_html-1024.png) / [full-size](responsive/deployed_gallery_html-1024-FULL.png) | [standard](responsive/deployed_gallery_html-1300.png) / [full-size](responsive/deployed_gallery_html-1300-FULL.png) |
 | Filming.html | [standard](responsive/deployed_filming_html_Pixel_2.png/) / [full-size](responsive/deployed_filming_html_Pixel_2-FULL.png)| [standard](responsive/deployed_filming_html_iPhone_6_7_8.png) / [full-size](responsive/deployed_filming_html_iPhone_6_7_8-FULL.png) | [standard](responsive/deployed_filming_html_Galaxy_Tab_S4.png) / [full-size](responsive/deployed_filming_html_Galaxy_Tab_S4-FULL.png) | [standard](responsive/deployed_filming_html_iPad.png) / [full-size](responsive/deployed_filming_html_iPad-FULL.png) | [standard](responsive/deployed_filming_html-1024.png) / [full-size](responsive/deployed_filming_html-1024-FULL.png) | [standard](responsive/deployed_filming_html-1300.png) / [full-size](responsive/deployed_filming_html-1300-FULL.png) |
@@ -44,19 +44,20 @@ Responsiveness tests were undertaken using Google Chrome DevTools on a MacBook. 
 
 ### Test Results
 
-| Responsiveness | Android Mobile | Apple Mobile | Android Tablet Device | Apple Tablet Device | Desktop 1024px | Desktop >1200px | Notes | Evidence |
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
-| Site is responsive >=700px | n/a | n/a |  |  |  |  | Notes | |
-| Site is responsive <699px |  |  | n/a | n/a | n/a | n/a | Notes | |
-| Text Readable | Good | Good | Good | Good | Good | Good | No readability issues identified on any tested viewport | |
-| Links / URLs work |  |  |  |  |  |  | Notes | |
-| Hero Images work |  |  |  |  |  |  | Notes | |
-| Non-hero images work |  |  |  |  |  |  | Notes | |
-| Contact form works |  |  |  |  |  |  | Notes | |
-| Google map visible |  |  |  |  |  |  | Notes | |
-| Site renders as expected |  |  |  |  |  |  | Notes | |
+| Responsiveness | Android Mobile | Apple Mobile | Android Tablet Device | Apple Tablet Device | Desktop 1024px | Desktop >1200px | Notes | 
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | 
+| Site is responsive >=700px | n/a | n/a | Good | Good | Good | Good | Responsive across all tested viewports |
+| Site is responsive <699px | Good | Good | n/a | n/a | n/a | n/a | Responsive across all tested viewports |
+| Text Readable | Good | Good | Good | Good | Good | Good | No readability issues identified on any tested viewport |
+| Links / URLs work | Good | Good | Good | Good | Good | Good | No broken links identified |
+| Hero Images work | Good | Good | Good | Good | Good | Good | No issues identified |
+| Non-hero images work | Good | Good | Good | Good | Good | Good | No issues identified |
+| Contact form works | Good | Good | Good | Good | Good | Good | No issues identified |
+| Google map visible | Good | Good | Good | Good | Good | Good | Map displays as expected across all viewports |
+| Site renders as expected | Good | Good | Good | Good | Good | Good | No issues identified |
 
-Site responsiveness across viewports can also be reviewed through [Am I Response?](https://ui.dev/amiresponsive?url=https://mikiburgess.github.io/MP1-Wah-Kong/)
+Site responsiveness across a selection of viewports can also be reviewed through [Am I Response?](https://ui.dev/amiresponsive?url=https://mikiburgess.github.io/MP1-Wah-Kong/)
+
 
 ## Browser Compatability
 *(2-3 browsers. inc summary table)*
