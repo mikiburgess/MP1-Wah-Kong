@@ -202,6 +202,7 @@ This site was designed and developed according to the Milestone Project 1 requir
 - Incorporate [modal images](https://www.w3schools.com/howto/howto_css_modals.asp) into the photo gallery, allowing full size viewing of each gallery photo. 
 - Improve site performance and accessibility by providing multiple image options (including WebP and jpeg) for all site photographs.
 - Add backend functionality to process submitted contact form data and respond accordingly (rather than using Code institute's form submission checker).
+- Color theme isn't currently set for this site. In future a color scheme will be set, for both light and dark, using the ```<meta name="theme">``` tag with corresponding color themes in the css stylesheet (standard - light; media query for suporting 'dark').
 - Add a page of resources, including links to the [marina](https://www.boatfolk.co.uk/weymouth-marina-dorset), [yacht club](https://royal-dorset.com/), and [local boat yard](https://www.clarksboatworks.co.uk/).
 - Improve consistency of Filming page (changing the text currently in 'card' format to match the text layout format used on the Contact page) and improving responsiveness of the YouTube video.
 - Add link to top of page to the standard site footer, to improve site easy of use (especially for the Gallery page).
@@ -287,7 +288,7 @@ In future projects, including developing the Future Features listed above, I the
 This would be based on the conventions presented by [Ishan Makadia on dev.to](https://dev.to/ishanmakadia/git-commit-message-convention-that-you-can-follow-1709) and [Apurva Jain on medium.com](https://medium.com/swlh/writing-better-commit-messages-9b0b6ff60c67)
 - *Commit frequency*: Reflecting on the early days of the project with my mentor, we realised that my use of git could be improved by increasing the number of commits. By committing changes more often (after every feature addition, bug fix, etc), this will improve rep usability and help develop an improved professional development practice.  
 
-### Project
+### Project Work
 - *Version Control*: Develop professional practice by committing changes to Git and pushing to GitHub repo more regularly during the development process, through the development of a clear version control procedure. 
 - *MD files*: Rather than creating these post-development from the notes taken during the project, these will be designed during the project startup process and developed concurrently with primary project deliverables.
 - *Wireframes*: Small and large wireframes were produced for this project. In future a minimum of three will be produced, for small (mobile), medium (tablet) and large (desktop) viewports.
@@ -321,15 +322,19 @@ Additional learning resources (*alongside Code Institute*):
 - [W3Schools](https://www.w3schools.com/): Specifically the reference pages for [CSS](https://www.w3schools.com/css/default.asp) and [Bootstrap](https://www.w3schools.com/bootstrap4/default.asp), and their [Accessibility Guidelines](https://www.w3schools.com/accessibility/index.php).
 - [Medium.com](https://medium.com/): Specifically for the article ['Best Practices on aria-label, aria-labelledby and aria-describedby'](https://medium.com/accessibility-a11y/best-practices-on-aria-label-aria-labelledby-and-aria-describedby-913fc9e396ae) by Saptarshi Katwala.
 - [The Net Ninja on YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9goXbgTDQ0n_4TBzOO0ocPR): Git & GitHub Tutorial for Beginners.
+- [Adam Pritchard's Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet): Useful advice for writing markdown documents.
 
 
 Creation of the README.MD and TESTING.MD files was inspired by the following: 
 - Code Institute alumnus, [Kera Cudmore's](https://github.com/kera-cudmore) GitHub repository includes examples and advice for creating these documents for [milestone project 1](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md), plus an example completed repo for [Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club) website.
+- Code Institute's [sample readme](https://github.com/Code-Institute-Solutions/SampleREADME).
+
 
 ### Acknowledgements
 I would like to acknowledge the following people who helped me complete this milestone project:
 - [Iris Smok](https://github.com/Iris-Smok) - our Code Institute cohort facilitator, for being a constant source of support and encouragement.
 - [Jubril Akolade](https://github.com/Jubrillionaire) - my Code Institute mentor, for their invaluable feedback and suggestions during the development of this project.
+- Code Institute Slack community - our study cohort and wider community, for their support and encouragement.
 - Martin Burgess - owner and skipper of Wah Kong II, for providing images, yacht data, and feedback during the development process.
 - Dr Nic Caine - professional software developer, for providing additional feedback during the development process.
 
