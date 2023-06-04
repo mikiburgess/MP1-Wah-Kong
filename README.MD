@@ -6,6 +6,14 @@ The website completed and presented for Milestone Project 1 is intended to showc
 
 [Visit the deployed site for Wah Kong II](https://mikiburgess.github.io/MP1-Wah-Kong/index.html)
 
+
+![GitHub last commit](https://img.shields.io/github/last-commit/mikiburgess/MP1-Wah-Kong??style=for-the-badge&logo=appveyor)
+![GitHub contributors](https://img.shields.io/github/contributors/mikiburgess/MP1-Wah-Kong??style=for-the-badge&logo=appveyor)
+![GitHub language count](https://img.shields.io/github/languages/count/mikiburgess/MP1-Wah-Kong??style=for-the-badge&logo=appveyor)
+![GitHub top language](https://img.shields.io/github/languages/top/mikiburgess/MP1-Wah-Kong??style=for-the-badge&logo=appveyor)
+![W3C Validator](https://img.shields.io/w3c-validation/html?&targetUrl=https%3A%2F%2Fmikiburgess.github.io%2FMP1-Wah-Kong%2Findex.html??style=for-the-badge&logo=appveyor)
+![Site Status](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fmikiburgess.github.io%2FMP1-Wah-Kong%2Findex.html??style=for-the-badge&logo=appveyor)
+
 - - -
 
 ## Table of Contents
@@ -323,6 +331,8 @@ I would like to credit the following resources and individuals for supporting bo
 - Hero image styling was inspired by, and adapted from, Code Institute's *Love Running* walkthrough project.
 - Style of the site button, used on the Contact page, was inspired by Code Institute's *Love Running* walkthrough project.
 - Shadow and hover action of the site button (contact page) was inspired by [W3Schools](https://www.w3schools.com/css/css3_buttons.asp).
+- Information badges at top of README created using [Shields.io](https://shields.io/)
+
 
 ### Learning Resources and Inspiration
 Additional learning resources (*alongside Code Institute*):
