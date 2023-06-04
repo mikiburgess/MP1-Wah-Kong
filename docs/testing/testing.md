@@ -91,7 +91,7 @@ Completed using [Jigsaw](https://jigsaw.w3.org/css-validator/), the W3C CSS Vali
 
 The site stylesheet, style.css, was validated and no errors were found ([Screenshot](screenshots/css_validation_stylesheet.png)). 
 
-The following warnings were raised ([Screenshot](screenshots/css_warning_stylesheet.png)): 
+The following warnings were raised ([Screenshot](screenshots/css_warnings_stylesheet.png)): 
 - Due to validation by 'direct import' method imported stylesheets were not checked. 
 - Due to the dynamic nature of CSS variables, these were not checked.
 - Vendor extension flagged.
@@ -111,7 +111,7 @@ Below is a tabular summary of the Lighthouse report results for every page, with
 | Index - Mobile | ![73](lighthouse/ratings/073.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/index-mobile-report.pdf) / [html](lighthouse/index-mobile-report.html) |
 | Index - Desktop | ![94](lighthouse/ratings/094.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/index-desktop-report.pdf) / [html](lighthouse/index-desktop-report.html) |
 | Gallery - Mobile | ![73](lighthouse/ratings/073.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/gallery-mobile-report.pdf) / [html](lighthouse/gallery-mobile-report.html) |
-| Gallery - Desktop | ![75](lighthouse/ratings/075.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/gellery-desktop-report.pdf) / [html](lighthouse/gallery-desktop-report.html) |
+| Gallery - Desktop | ![75](lighthouse/ratings/075.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/gallery-desktop-report.pdf) / [html](lighthouse/gallery-desktop-report.html) |
 | Filming - Mobile | ![67](lighthouse/ratings/067.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/filming-mobile-report.pdf) / [html](lighthouse/filming-mobile-report.html) |
 | Filming - Desktop | ![71](lighthouse/ratings/071.jpg) | ![98](lighthouse/ratings/098.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/filming-desktop-report.pdf) / [html](lighthouse/filming-desktop-report.html) |
 | Contact - Mobile | ![76](lighthouse/ratings/076.jpg) | ![93](lighthouse/ratings/093.jpg) | ![100](lighthouse/ratings/100.jpg) | ![100](lighthouse/ratings/100.jpg) | [pdf](lighthouse/contact-mobile-report.pdf) / [html](lighthouse/contact-mobile-report.html) |
