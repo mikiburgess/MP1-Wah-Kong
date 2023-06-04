@@ -10,13 +10,22 @@ Overview of the testing of Milestone Project 1 - Website for yacht Wah Kong II.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Responsiveness](#responsiveness)
-- [Browser Compatability](#browser-compatbility)
+- [Introduction](#Introduction)
+- [Browser Compatability](#Browser-Compatbility)
+- [Responsiveness](#Responsiveness)
+    - [Devices Tested (Emulated)](#Devices-Tested-(Emulated))
+    - [Test Results](#Test-Results)
 - [Code Validation](#Code-Validation)
+    - [HTML Validation](#HTML-Validation)
+    - [CSS Validation](#CSS-Validation)
 - [Lighthouse](#Lighthouse)
+    - [Lighthouse Testing Results Summary](#Lighthouse-Testing-Results-Summary)
+    - [Performance](#Performance)
+    - [Accessibility](#Accessibility)
+    - [Best Practices](#Best-Practices)
+    - [Progressive Wep App (PWA)](#Progressive-Wep-App-(PWA))
 - [User Story Testing](#User-Story-Testing)
-- Features (manually test all features. again inc table)
+- [Features](#Features) 
 - [Bugs](#Bugs)
     - [Fixed Bugs](#Fixed-Bugs)
     - [Unfixed Bugs](#Unfixed-Bugs)
@@ -41,6 +50,7 @@ Browser compatability testing was completed with Chrome, Firefox, Safari and Ope
 
 Results of the testing undertaken on each browser can also be seen in the following folders: [Chrome](browsers/chrome/), [Firefox](browsers/firefox/), [Safari](browsers/safari/), [Opera](browsers/opera/).
 
+- - -
 
 ## Responsiveness
 
@@ -71,6 +81,7 @@ Responsiveness tests were undertaken using Google Chrome DevTools on a MacBook. 
 
 Site responsiveness across a selection of viewports can also be reviewed through [Am I Response?](https://ui.dev/amiresponsive?url=https://mikiburgess.github.io/MP1-Wah-Kong/)
 
+- - -
 
 ## Code Validation 
 W3C online code validators were used to validate the final versions of all code developed for this project. Below are the results of using their [Markup Validation Service](https://validator.w3.org/) and [Jigsaw](https://jigsaw.w3.org/css-validator/). All code was validated using the 'direct input' option.
@@ -113,12 +124,15 @@ The following warnings were raised ([Screenshot](screenshots/css_warnings_styles
 
 None of these warnings require action.
 
+- - -
 
 ## Lighthouse
 Lighthouse was used to generate reports on the Mobile and Desktop versions of each site page.
 This was done by opening the deployed site in a Google Chrome Incognito page (to ensure all Chrome extensions were disabled for testing).
 
 Below is a tabular summary of the Lighthouse report results for every page, with links to the detailed reports (for reference). Following the results is a reflection of the results and actions that would be undertaken in future to improve site performance.
+
+### Lighthouse Testing Results Summary
 
 | Test | Performance | Accessibility | Best Practices | SEO | Report |
 | -------- | -------- | -------- | -------- | -------- | -------- |
@@ -153,6 +167,7 @@ Additional suggestions for improvement were included in the PWA section of each 
 - *Does not set a theme color for the address bar*: In future a color scheme will be explicitly specified for each page, for both light and dark, using the ```<meta name="theme">``` tag, with corresponding color themes in the css stylesheet (standard - light; media query for suporting 'dark').
 - In future projects sites will be checked against a [PWA checklist](https://web.dev/pwa-checklist/?utm_source=lighthouse&utm_medium=devtools).
 
+- - -
 
 ## User Story Testing
 
@@ -171,6 +186,7 @@ Additional suggestions for improvement were included in the PWA section of each 
 | As the Owner, I want to advertise the yacht for potential commercial work, in order to raise fund for her maintenance. | Availability for hire is summarised on the home/landing page. The filming page showcases one example of where and how she was used in a movie. The Contact page provides a quick way for interested parties to make direct contact with the owner. |
 | As the Owner, I want to be able to inform potential buyers of her details so that, in the future, I will be able to sell her to a classic yacht enthusiast. | Brief history and summary of her specifications and construction is presented on the home/landing page. The Gallery includes internal and external photographs of the yacht, including the deck, hull, cockpit, cabin, sails and mast. The Contact page provides a quick way for any potential new owner to make direct contact with the current owner. |
 
+- - -
 
 ## Features
 *(manually test all features. again inc table)*
@@ -180,6 +196,8 @@ Additional suggestions for improvement were included in the PWA section of each 
 | | | |
 | | | |
 | | | |
+
+- - -
 
 ## Bugs
 During development and manual testing process, a number of bugs were identified. These are summarised below: those what were identified and fixed, and those that are not yet foxed but would be rectified with further development.
