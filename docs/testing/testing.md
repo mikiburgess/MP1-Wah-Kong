@@ -13,8 +13,8 @@ Overview of the testing of Milestone Project 1 - Website for yacht Wah Kong II.
 - [Introduction](#introduction)
 - [Responsiveness](#responsiveness)
 - [Browser Compatability](#browser-compatbility)
-- [Lighthouse](#Lighthouse)
 - [Code Validation](#Code-Validation)
+- [Lighthouse](#Lighthouse)
 - User Story Testing (inc able: 'User Story' and 'Testing' columns)
 - Features (manually test all features. again inc table)
 - [Bugs](#Bugs)
@@ -58,11 +58,6 @@ Site responsiveness across viewports can also be reviewed through [Am I Response
 
 
 
-
-## Lighthouse
-*(remember to disable extensions)*
-
-
 ## Code Validation 
 W3C online code validators were used to validate the final versions of all code developed for this project. Below are the results of using their [Markup Validation Service](https://validator.w3.org/) and [Jigsaw](https://jigsaw.w3.org/css-validator/). All code was validated using the 'direct input' option.
 
@@ -103,6 +98,24 @@ The following warnings were raised ([Screenshot](screenshots/css_warning_stylesh
 
 
 None of these warnings require action.
+
+
+## Lighthouse
+Lighthouse was used to generate reports on the Mobile and Desktop versions of each site page.
+This was done by opening the deployed site in a Google Chrome Incognito page (to ensure all Chrome extensions were disabled for testing).
+
+Below is a tabular summary of the Lighthouse report results for every page, with links to the detailed reports in HTML format (for reference). Following the results is a reflection of the results and actions that would be undertaken in future to improve site performance.
+
+| Report| Performance | Accessibility | Best Practices | SEO | Report (HTML) |
+| -------- | -------- | -------- | -------- | -------- | -------- |
+| Index - Mobile |  |  |  |  |  |
+| Index - Desktop |  |  |  |  |  |
+| Gallery - Mobile |  |  |  |  |  |
+| Gallery - Desktop |  |  |  |  |  |
+| Filming - Mobile |  |  |  |  |  |
+| Filming - Desktop |  |  |  |  |  |
+| Contact - Mobile |  |  |  |  |  |
+| Contact - Desktop |  |  |  |  |  |
 
 
 ## User Story Testing
